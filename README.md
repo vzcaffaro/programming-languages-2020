@@ -19,7 +19,7 @@ Moreover, students will learn the fundamental ideas of
 
 On the way, students will encounter different programming languages such as Dafny and Haskell, theorem provers such as Isabelle, dependently typed programming languages such as Idris as well as programming concepts such as algebraic data types, recursion, variable binding, polymorphism, and more.
 
-A special feature of the course is to pay attention to compositionality. In software engineering we see compositionality in the division between syntax and semantics, or, parsing and interpretation. The programming technique of recursion over abstract syntax tree is another incarnation. In program verification, we will separate termination from partial correctness. 
+During the course we will pay special attention to compositionality. In software engineering we see compositionality in the division between syntax and semantics, or, parsing and interpretation. The programming technique of recursion over abstract syntax tree is another incarnation. In program verification, we will separate termination from partial correctness. 
 
 Assessment is divided accordingly in programming assignments, presentations, and written examinations, currently planned as follows.
 
