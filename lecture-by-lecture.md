@@ -19,7 +19,7 @@ Lambda Calculus: Creating our own Functional Programming Language (3 weeks)
 - Lab on Building interpreters for the LambdaNat family, Assignment 2 out
 - Lab on Assignment 2
 
-Termrewriting as a Model of Computation (4 weeks)
+Termrewriting as a Model of Computation (4 weeks, examinable)
 
 - Operational and Denotational Semantics
 - Confluence and Normal Forms
@@ -29,7 +29,7 @@ Termrewriting as a Model of Computation (4 weeks)
 - Invariants
 - Normalisation by Evaluation
 
-Program Verification (2 weeks)
+Program Verification (2 weeks, examinable)
 
  - Induction and Equational Reasoning
  - Theorem Proving

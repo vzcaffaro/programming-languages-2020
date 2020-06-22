@@ -1,5 +1,8 @@
-.hi
-.o
-.txt
-.x
-.info
+*.hi
+*.o
+*.txt
+*.x
+*.info
+*.y
+Makefile
+
