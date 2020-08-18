@@ -10,6 +10,8 @@ I manage the settings of the group so that only members have the right to post a
 
 If you didn't get an invitation, send me an email.
 
+PS The reason to choose google groups is that it integrates seemlessly into my email. I receive your posts in my inbox and can react to them by replying via email. Indeed, my main channel of communication is email. I try to watch other channels such as slack, zulip, twitter, facebook, phone, text, whatsapp, etc but I usually do not carry a phone with me which makes the combination of laptop/email my favourite way of communication.
+
 
 
 
