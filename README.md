@@ -1,7 +1,5 @@
 # Programming Languages 2020
 
-(under construction)
-
 This course has been developed by Alexander Kurz and Samuel Balco for the students of Chapman University and will be taught by Alexander Kurz.
 
 **Notes and Materials** for a course on Programming Languages Fall 2020 at Chapman University.
