@@ -1,19 +1,17 @@
 
 # Lecture by Lecture
 
-(Adapted from last year ... subject to change.)
+(adapted from last year ... subject to change ... times are estimates)
 
-Introduction: Functional Programming (2 weeks ?)
+Introduction: Functional Programming (2 weeks)
 
-- Imperative vs functional programming
-- Recursive Programming in Haskell
-- A Calculator in Haskell
-- Parsing
+- [Imperative vs functional programming](https://hackmd.io/@alexhkurz/SJKWvna6U)
+- [Lab on recursive programming in Haskell](https://hackmd.io/@alexhkurz/H1jUka4Gv)
+- [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U)
+- [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068), Assignment 1 out
 
-Lambda Calculus: Creating our own Functional Programming Language (3 weeks)
+Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
-- Lab on programming in LambdaNat,  Assignment 1 out
-- Lab on Assignment 1
 - Syntax and Semantics of Lambda Calculus
 - Introduction to Parsing
 - Lab on Building interpreters for the LambdaNat family, Assignment 2 out
@@ -35,12 +33,10 @@ Program Verification (2 weeks, examinable)
  - Theorem Proving
  - Hoare Logic
 
-Imperative Programming (2 weeks)
+Imperative Programming (1 week)
 
-- Lab on programming in LambdaFun, start of Assignment 3 
-- Lab on Assignement 3
-- Lab on building interpreters for the LambdaFun family, Assignment 4 out
-- Lab on Assignment 4
+- Lab on building interpreters for the LambdaFun family, Assignment 3 out
+- Lab on Assignment 3
 
 Universal Algebra and Category Theory (1 week)
 
@@ -49,9 +45,4 @@ Universal Algebra and Category Theory (1 week)
  - Structure Preserving Maps
  - Universal Properties
 
-
-
-
-
-
-
+This makes currently 12 weeks so there are another 2 weeks to allocate, eg on the programming parts.
