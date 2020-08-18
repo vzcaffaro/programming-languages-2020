@@ -1,6 +1,28 @@
 # programming-languages-2020
 
-This course has been developed by Alexander Kurz and Samuel Balco and will be taught by Alexander Kurz.
+This course has been developed by Alexander Kurz and Samuel Balco for the students of Chapman University and will be taught by Alexander Kurz.
+
+**Notes and Materials** for a course on Programming Languages Fall 2020 at Chapman University.
+
+- [Syllabus](syllabus.d)  
+- [Overview](overview.md)  
+- [Contact](contact.md)  
+
+**Quick links:**
+
+- [Required Text](required-text.md)  
+
+- [Course Materials](course-materials.md)  
+
+- [Discussion Forum](discussion-forum.md)  
+
+- [Assignments](assignments.md)  
+
+- [Git best practices](git-best-practices.md)
+
+- [Lecture by Lecture](lecture-by-lecture.md)  
+
+
 
 The course is divided in a practical and theoretical component. 
 
@@ -54,4 +76,6 @@ These links should go somewhere else in the end but I keep them here for now ...
 [Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
 
 [Compiling Lisp to JavaScript From Scratch in 350 LOC](https://gilmi.xyz/blog/post/2016/10/14/lisp-to-js) 
+
+[Bjarne Stroustrup - The Essence of C++](https://www.youtube.com/watch?v=86xWVb4XIyE&feature=emb_rel_err)
 
