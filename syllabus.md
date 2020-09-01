@@ -60,7 +60,7 @@ If you need more time for an assignment that may be possible if
 
 ## Participation
 
-- It is expected that students attend every lecture and participate in the [Discussion Forum](). 
+- It is expected that students attend every lecture and participate in the [Discussion Forum](discussion-forum.md). 
 - I also appreciate if students make use of the office hours, which gives me valuable feedback on how the class is going.
 - Participation will contribute 5% to the final course grade, see [Assessment](assessment.md).
 
