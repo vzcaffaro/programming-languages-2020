@@ -10,14 +10,11 @@ This course has been developed by Alexander Kurz and Samuel Balco for the studen
 
 **Quick links:**
 
-- [Required Text/Course Materials/Lecture by Lecture](lecture-by-lecture.md)  
+- [Lecture by Lecture](lecture-by-lecture.md)  
 - [Discussion Forum](discussion-forum.md)  
 - [Assignments](assignments.md)  
 - [Git best practices](git-best-practices.md)
 
-**Tentative schedule:**
-
-- [Lecture by Lecture](lecture-by-lecture.md)
 
 **Acknowledgements:**
 

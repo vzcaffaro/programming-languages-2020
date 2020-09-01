@@ -1,14 +1,22 @@
 
-# Lecture by Lecture
+# Course Materials
 
 (adapted from last year ... subject to change ... times are estimates)
+
+## Quick Links
+
+[Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](http://bnfc.digitalgrammars.com/) ... 
+
+## Lecture by Lecture
 
 Introduction: Functional Programming (2 weeks)
 
 - [Imperative vs functional programming](https://hackmd.io/@alexhkurz/SJKWvna6U)
 - [Lab on recursive programming in Haskell](https://hackmd.io/@alexhkurz/H1jUka4Gv)
 - [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U)
-- [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068), Assignment 1 out
+- [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)
+
+Assignment 1 out
 
 Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
