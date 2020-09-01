@@ -1,6 +1,6 @@
 ## Discussion Forum
 
-For a more collaborative learning experience, I want to reward participation in asking, discussing and answering questions on this [google group](https://groups.google.com/forum/?pli=1#!forum/chapman-compiler-construction-2021) with up to 5% of the total points, see [Assessment](assessment.md) for details. 
+For a more collaborative learning experience, I want to reward participation in asking, discussing and answering questions on this [google group](https://groups.google.com/forum/?pli=1#!forum/chapman-programming-languages-2020) with up to 5% of the total points, see [Assessment](assessment.md) for details. 
 
 As I want this forum to be a space for collaborative learning, I will grade participation, not the correctness of answers.
 
