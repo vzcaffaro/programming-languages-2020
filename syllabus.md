@@ -6,7 +6,7 @@
 - Lectures: 
   - 354-01: TuTh 8:30AM - 9:45AM online (Keck 156 in case they move on campus)   
   - 354-01: TuTh 1:00PM - 2:15PM online (Keck 156 in case they move on campus)     
-- Office Hours: tba ... contact me via [email](mailto:alexhkurz@gmail.com?subject=CPSC 354) for now if you want to discuss anything
+- Office Hours: Tue 12-1PM and Thu 10-11:30AM ... or contact me via [email](mailto:alexhkurz@gmail.com?subject=CPSC 354) for now if you want to discuss anything
 
 
 ## Course Description 
