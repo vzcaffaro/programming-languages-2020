@@ -2,7 +2,7 @@
 
 The practical component will be assessed by 
 
-- 5% of the course: Participation in lectures and office hours as well as asking, discussing, and answering questions on the [discussion forum](https://groups.google.com/forum/#!forum/chapman-programming-languages-2020).
+- 5% of the course: Participation in lectures and office hours as well as asking, discussing, and answering questions on the [discussion forum](discussion-forum.md).
 
   One good way to get participation going is to to **ask at least one question for every lecture**. Here are some reasons why I think that this is a good idea:
 
