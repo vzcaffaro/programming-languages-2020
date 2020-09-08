@@ -28,6 +28,8 @@ Many thanks to all with whom I had the opportunity to discuss the contents of th
 
 These links should go somewhere else in the end but I keep them here for now ...
 
+[Alexis King - "Types as axioms"](https://lexi-lambda.github.io/blog/2020/08/13/types-as-axioms-or-playing-god-with-static-types/) One thing that is new to many Haskell beginners is the type system. This blog is a good introduction.
+
 [Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
 
 [Compiling Lisp to JavaScript From Scratch in 350 LOC](https://gilmi.xyz/blog/post/2016/10/14/lisp-to-js) 

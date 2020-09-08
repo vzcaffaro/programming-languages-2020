@@ -1,0 +1,10 @@
+Plus. Exp ::= Exp "+" Exp1 ;
+Times. Exp1 ::= Exp1 "*" Exp2 ;
+Num. Exp2 ::= Integer ;
+
+coercions Exp 2 ;
+
+-- this is only needed to enable the bnfc generated code to print "S"-numbers
+-- it is not part of the grammar of the source language
+O. NN ::= "O" ;
+S. NN ::= "S" NN ;
