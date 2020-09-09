@@ -14,8 +14,8 @@ main = do
 
 calc s = 
   let Ok e = pExp (myLexer s) 
-  in show (eval e)
+  in printTree (eval e)
 
--- ghc Calculator.hs
+-- ghc --make Calculator.hs
 -- echo "1+2*3" | ./Calculator
 
