@@ -9,12 +9,12 @@
 
 ## Lecture by Lecture
 
-Introduction: Functional Programming (2 weeks)
+Introduction: Functional Programming (2.5 weeks)
 
-- [Imperative vs functional programming](https://hackmd.io/@alexhkurz/SJKWvna6U)
-- [Lab on recursive programming in Haskell](https://hackmd.io/@alexhkurz/H1jUka4Gv)
-- [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U)
-- [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)
+1.1: [Imperative vs functional programming](https://hackmd.io/@alexhkurz/SJKWvna6U)  
+1.2: [Lab on recursive programming in Haskell](https://hackmd.io/@alexhkurz/H1jUka4Gv)  
+2.1-2: [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U)  
+3.1: [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)  
 
 Assignment 1 out
 
