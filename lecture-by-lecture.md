@@ -14,7 +14,7 @@
 1.1: [Imperative vs functional programming](https://hackmd.io/@alexhkurz/SJKWvna6U)  
 1.2: [Lab on recursive programming in Haskell](https://hackmd.io/@alexhkurz/H1jUka4Gv)  
 2.1 and 2.2: [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U)  
-3.1: [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)  
+3.1 and 3.2: [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)  
 
 Assignment 1 out ... (this will be variations on the exercises and homeworks of the lectures above)
 
@@ -53,4 +53,4 @@ Assignment 1 out ... (this will be variations on the exercises and homeworks of 
  - Structure Preserving Maps
  - Universal Properties
 
-This makes currently 12 weeks so there are another 2 weeks to allocate, eg on the programming parts.
+This makes currently 13 weeks, so there is another week to allocate.
