@@ -16,7 +16,7 @@
 2.1 and 2.2: [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U)  
 3.1 and 3.2: [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)  
 
-Assignment 1 out ... (this will be variations on the exercises and homeworks of the lectures above)
+[Assignment 1](assignments.md) 
 
 #### Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
