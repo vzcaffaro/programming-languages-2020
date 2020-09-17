@@ -44,7 +44,7 @@ In the second part, we will now allow ourselves to use the built-in arithmetic o
 
 ### An interpreter for abstract syntax (2 points)
 
-Download the [file `numbers3.hs`](src/Haskell/numbers3.hs). It contains the definition of a language for arithmetic expressions and an interpreter evaluating these expressions into the Haskell integers:
+Download the [template `numbers3.hs`](src/Haskell/numbers3.hs). It contains the definition of a language for arithmetic expressions and an interpreter evaluating these expressions into the Haskell integers:
 
     data Exp = Num Int | Plus Exp Exp | Times Exp Exp 
 
