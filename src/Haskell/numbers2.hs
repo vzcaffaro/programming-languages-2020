@@ -27,5 +27,3 @@ eval (Plus n m) = add (eval n) (eval m)
 eval (Times n m) = mult (eval n) (eval m)
 -- eval (Times (Num 2) (Num 3))
 -- eval (Plus (Num 1) (Times (Num 2) (Num 3)))
-
--- eval (Power (S (S O)) (S (S O)))
