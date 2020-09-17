@@ -1,5 +1,7 @@
 ## Assignments
 
+(see also [assessment](assessment.md))
+
 Here are the basic rules for assignments, let me know if there are any questions:
 
 - You can work on the assignments in groups of two students.

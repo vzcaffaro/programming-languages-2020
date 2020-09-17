@@ -12,7 +12,7 @@ The practical component will be assessed by
 
 - 45% of the course: 
   - 3 [assignments](assignments.md), worth 9% each
-  - a tutorial on Haskell for beginners published on the web, worth 18%
+  - a [blog/tutorial](blog.md) on Haskell for beginners published on the web, worth 18%
 
 The theoretical component will be assessed by a final exam worth 30% and a number of tests during the semester worth together 20%. 
 
