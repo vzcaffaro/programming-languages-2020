@@ -2,9 +2,11 @@
 
 The assignment comes in 2 parts. Both parts are exercises in Haskell. This is important since we will use Haskell throughout this course and also next semester in Compiler Construction. 
 
+**Proper use of git will be taken into account for grading.**
+
 But I want to emphasize that Haskell is only a (very good) tool for us, one could use any other programming language for the same purpose. In fact, if you want to compare Haskell to another programming language you already know, it would be a great idea for your blog to implement this assignment also in, say, one of Java, Python, C++, etc and then to compare the two implementations.
 
-## Part 1: Recursion
+## Part 1: Recursion (5 points)
 
 In the first part you can show your skills in programming recursively over algebraic data types. 
 
@@ -34,14 +36,44 @@ The programming techniques follow closely the lectures and the homework. Start f
 
 Hint: Spend some time on thinking about the logic behind each function. Once you have the idea, the solution will be short. Most of the functions are two-liners.
 
-## Part 2: A Calculator
+## Part 2: A Calculator (4 points)
 
 In the first part, we have seen how to define fractions from scratch, and how to implement the mathematical definitions using recursion on algebraic data types. The host language (Haskell) was only used to execute the equational reasoning based on the recursive mathematical equations.
 
 In the second part, we will now allow ourselves to use the built-in arithmetic of the host language. One of the reasons is that this built-in arithmetic uses binary numbers instead of successor numbers and, therefore, is much more efficient (but also much more difficult to implement). Another reason is that using the rich arithmetic of the host language makes it much easier to add features to the calculator.
 
-... to be continued ...
+### An interpreter for abstract syntax (2 points)
 
+Download the [file `numbers3.hs`](src/Haskell/numbers3.hs). It contains the definition of a language for arithmetic expressions and an interpreter evaluating these expressions into the Haskell integers:
+
+    data Exp = Num Int | Plus Exp Exp | Times Exp Exp 
+
+    eval :: Exp -> Int
+    eval (Num n) = n
+    eval (Plus n m) = (eval n) + (eval m)
+    eval (Times n m) = (eval n) * (eval m)
+
+
+
+**Task**: Extend the definition of `Exp` and `eval` by 5 other operations on the integers. Use the native Haskell operations on Int.
+
+### An interpreter for concrete syntax (2 points)
+
+Have a look at the [directory `Calculator3`](src/Calculator3). The file `Interpreter.hs` contains the function `eval`. The data type `Exp` will be generated automatically by `bnfc`  (see the lecture) from the grammar in `numbers.cf`:
+
+    Plus. Exp ::= Exp "+" Exp1 ;
+    Times. Exp1 ::= Exp1 "*" Exp2 ;
+    Num. Exp2 ::= Integer ;
+
+    coercions Exp 2 ;
+
+Compiling `numbers.cf` with `bnfcc` generates a number of files, in particular `AbsNumbers.hs`, which contains the definition of `Exp` (check for yourself).
+
+**Task**: 
+- Extend the grammar with syntax for the 5 operations from the previous task. 
+- Compile the grammar with `bnfc`.
+- Extend the interpreter as you have done in the previous task.
+- Run and test the calculator.
 
 
 
