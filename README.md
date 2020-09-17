@@ -12,7 +12,8 @@ This course has been developed by Alexander Kurz and Samuel Balco for the studen
 
 - [Lecture by Lecture](lecture-by-lecture.md)  
 - [Discussion Forum](discussion-forum.md)  
-- [Assignments](assignments.md)  
+- [Assignments](assignments.md)
+- [Blog/Tutorial](blog.md)
 - [Git best practices](git-best-practices.md)
 
 

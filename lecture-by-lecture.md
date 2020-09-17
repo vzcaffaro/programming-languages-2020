@@ -21,7 +21,7 @@
 #### Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
 - Syntax and Semantics of Lambda Calculus
-- Introduction to Parsing
+- Introduction to Parsing 
 - Lab on Building interpreters for the LambdaNat family, Assignment 2 out
 - Lab on Assignment 2
 
