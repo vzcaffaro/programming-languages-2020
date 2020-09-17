@@ -9,7 +9,7 @@
 
 ## Lecture by Lecture
 
-#### Introduction: Functional Programming (2.5 weeks)
+#### Introduction: Functional Programming (4 weeks)
 
 1.1: [Imperative vs functional programming](https://hackmd.io/@alexhkurz/SJKWvna6U)  
 1.2: [Lab on recursive programming in Haskell](https://hackmd.io/@alexhkurz/H1jUka4Gv)  
@@ -53,4 +53,3 @@
  - Structure Preserving Maps
  - Universal Properties
 
-This makes currently 13 weeks, so there is another week to allocate.

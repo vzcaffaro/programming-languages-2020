@@ -21,4 +21,5 @@ Here are some things I would like to learn from you:
 - Which external sources (videos, blogs, tutorials, etc) do you find most useful?
 - How does Haskell compare to your favourite programming language? Give examples of the same algorithm written in your favourite language and in Haskell. What are the respectives strengths and weaknesses of the two programming paradigms?
 - What are, in your opinion, the major stumbling blocks in learning Haskell?
-- What are projects you may want to explore in Haskell?
+- Are there any projects you implemented in Haskell that go beyond what we do in class?
+
