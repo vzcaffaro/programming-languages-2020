@@ -6,29 +6,29 @@ data NN = O | S NN
 
 -- addition
 add :: NN -> NN -> NN
-add O n = n
-add (S n) m = S (add n m)
+add O n = n                         -- 0 + n = n
+add (S n) m = S (add n m)           -- (1 + n) + m = 1 + (n + m)
 -- add (S O) (S (S O))
 
 -- multiplication
 mult :: NN -> NN -> NN
-mult O n = O
-mult (S O) n = n
-mult (S n) m = add m (mult n m)
+mult O n = O                        -- 0 * n = 0
+mult (S O) n = n                    -- 1 * n = n
+mult (S n) m = add m (mult n m)     -- (1 + n) * m = m + (n * m)
 -- mult (S (S O)) (S (S ( S O)))
 
 -- subtraction
 subtr :: NN -> NN -> NN
-subtr O n = O
-subtr n O = n
-subtr (S n) (S m) = subtr n m
+subtr O n = O                       -- 0 - n = 0 (because we do not do negative numbers here)
+subtr n O = n                       -- n - 0 = 0 
+subtr (S n) (S m) = subtr n m       -- (1 + n) - (1 + m) = n - m
 -- subtr (S (S O)) (S O)
 
 -- less
 less :: NN -> NN -> Bool
-less n O = False -- n cannot be less than O
-less O n = True -- we know n cannot be O in this case
-less (S n) (S m) = less n m
+less n O = False                    -- n cannot be less than O
+less O n = True                     -- we know n cannot be O in this case
+less (S n) (S m) = less n m         -- similar to subtr
 
 -- division
 divi :: NN -> NN -> NN
