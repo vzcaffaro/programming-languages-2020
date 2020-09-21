@@ -10,7 +10,9 @@ The minimal way to set up a blog is as follows:
 - Add a `README.md`.
 - Make `.md` files for each blog entry. Link them from the README.
 
-To learn markdown, google "markdown cheat sheet" ... it is easy. And it is what I use for this course. Of course, if you want more sophisticated ways of controlling the layout, feel free to explore other possibilities. Github pages is one possibility.
+To learn markdown, google "markdown cheat sheet" ... it is easy. And it is what I use for this course. Btw, you can use all of html in markdown. It makes the writing more cumbersome, but also gives you additional options. 
+
+Of course, if you want more sophisticated ways of controlling the layout, feel free to explore other possibilities. Github pages is one possibility.
 
 There are currently no fixed deadlines. The expectation is that you write the blog like a diary, as you go on in the course. Write it with beginning Haskeller's in mind. 
 
