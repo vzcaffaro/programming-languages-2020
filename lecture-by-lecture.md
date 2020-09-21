@@ -13,7 +13,8 @@
 
 1.1: [Imperative vs functional programming](https://hackmd.io/@alexhkurz/SJKWvna6U)  
 1.2: [Lab on recursive programming in Haskell](https://hackmd.io/@alexhkurz/H1jUka4Gv)  
-2.1 and 2.2: [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U)  
+2.1 and 2.2: [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U) 
+Video review: [Program with recursion and pattern matching over algebraic data types in Haskell](https://www.youtube.com/watch?v=2YLfJvOtLwA)  
 3.1 and 3.2: [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)  
 
 [Assignment 1](assignments.md) 
