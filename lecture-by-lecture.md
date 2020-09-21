@@ -15,14 +15,18 @@
 1.2: [Lab on recursive programming in Haskell](https://hackmd.io/@alexhkurz/H1jUka4Gv)  
 2.1 and 2.2: [A Calculator in Haskell (Abstract Syntax)](https://hackmd.io/@alexhkurz/SyxKCkR6U) 
 Video review: [Program with recursion and pattern matching over algebraic data types in Haskell](https://www.youtube.com/watch?v=2YLfJvOtLwA)  
-3.1 and 3.2: [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)  
+3.1, 3.2, 4.1: [A Calculator in Haskell (Concrete Syntax)](https://hackmd.io/@alexhkurz/HJVtVl068)  
 
 [Assignment 1](assignments.md) 
 
+
 #### Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
-- Syntax and Semantics of Lambda Calculus
-- Introduction to Parsing 
+(... currently copied from 2019 ... to be adapted to 2020 ...)
+
+[Lecture 2.1](https://hackmd.io/@alexhkurz/S1D0yP8Bw): Syntax of Lambda Calculus.   
+[Lecture 2.2](https://hackmd.io/@alexhkurz/H1e4Nv8Bv): Semantics of Lambda Calculus.   
+
 - Lab on Building interpreters for the LambdaNat family, Assignment 2 out
 - Lab on Assignment 2
 
