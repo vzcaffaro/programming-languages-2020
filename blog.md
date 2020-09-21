@@ -10,14 +10,14 @@ The minimal way to set up a blog is as follows:
 - Add a `README.md`.
 - Make `.md` files for each blog entry. Link them from the README.
 
-To learn markdown, google "markdown cheat sheet" ... it is easy.
+To learn markdown, google "markdown cheat sheet" ... it is easy. And it is what I use for this course. Of course, if you want more sophisticated ways of controlling the layout, feel free to explore other possibilities. Github pages is one possibility.
 
 There are currently no fixed deadlines. The expectation is that you write the blog like a diary, as you go on in the course. Write it with beginning Haskeller's in mind. 
 
 **Drop me an email when you made a new entry.**
 
 Here are some things I would like to learn from you:
-- How do newcomers learn functinal programming?
+- How do newcomers learn functional programming?
 - Which external sources (videos, blogs, tutorials, etc) do you find most useful?
 - How does Haskell compare to your favourite programming language? Give examples of the same algorithm written in your favourite language and in Haskell. What are the respectives strengths and weaknesses of the two programming paradigms?
 - What are, in your opinion, the major stumbling blocks in learning Haskell?
