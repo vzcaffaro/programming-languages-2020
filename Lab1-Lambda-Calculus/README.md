@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The purpose of this folder is to teach a basic way how to extend and modify a small programming language. We start with the pure and untyped lambda calculus, available in the folder [LambdaNat0](https://github.com/alexhkurz/programming-languages-2020/tree/master/Lab1-Lambda-Calculus/LambdaNat0). 
+Our aim is to learn how to extend and modify a small programming language. We start with the pure and untyped lambda calculus, available in the folder [LambdaNat0](https://github.com/alexhkurz/programming-languages-2020/tree/master/Lab1-Lambda-Calculus/LambdaNat0). 
 
-Recall that the [syntax](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/grammar/LambdaNat0.cf) of the lambda calculus has only variables, abstraction (function definition) and function application. The [semantics](https://hackmd.io/@alexhkurz/H1e4Nv8Bv) only has one computation rule, known as capture avoiding substitution or beta-reduction.
+Recall that the [syntax](https://hackmd.io/@alexhkurz/S1D0yP8Bw) of the lambda calculus has only variables, abstraction (function definition) and function application. We formalise the syntax in [this context-free grammar](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/grammar/LambdaNat0.cf). To execute lambda-calculus programs, we need to know the  [operational semantics](https://hackmd.io/@alexhkurz/H1e4Nv8Bv) consisting of only one computation rule known as capture avoiding substitution or beta-reduction. We will formalise this operational semantics by writing an interpreter for the lambda caclulus in Haskell.
 
-This is a really small programming language and the learning outcome of this lab is to extend this very basic language with new features. There are two main steps: Add the new feature to the parser and then to the interpreter.
+The untyped lambda calculus is a very small programming language an we want to extend this very basic language with new features. There are two main steps: Add the new feature to the parser and then to the interpreter. This is described in the section "The Work Cycle".
 
 ## Preliminary preparations
 
@@ -19,7 +19,7 @@ To set up your computer, clone [this directory](https://github.com/alexhkurz/pro
 You now have a folder `programming-languages-2019/Lab1-Lambda-Calculus/LambdaNat0/
 `. This is the base folder to follow the instructions in this section.
 
-#### Generate a Parser
+#### How to Generate a Parser
 
 To **view the grammar** of the pure lambda calculus go to the folder `grammar` and  open [LambdaNat0.cf](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/grammar/LambdaNat0.cf). 
 
@@ -38,7 +38,7 @@ To **parse a program** run, for example,
     
 *Exercise:* Write your own lamda calculus programs and parse them.
     
-#### Build an Interpreter
+#### How to Build an Interpreter
 
 To **view the interpreter** find the folder `src` and open [interpreter.hs](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/src/Interpreter.hs).
     
@@ -73,7 +73,7 @@ If stack build fails:
 - On some installations where `stack build` fails, `cabal build` works. 
 -->
 
-#### Test the Interpreter
+#### How to Test the Interpreter
 
 To **write a program** open a text editor and save the file in the folder `test` as, say, `myprogram.lc`. Or use one of the programs already available in the folder `test`.
 
