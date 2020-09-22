@@ -55,7 +55,7 @@ Use your file browser to find where the exectuable `bnfc` is. I found it as `bnf
 
 Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. We need to make sure that `bnfc` will be "in the path". I collected some information on [setting the PATH variable](PATH.md). 
  
-Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you are doing this in the future.)
+Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you if you have a more recent version.)
 
 ## Testing BNFC
 
