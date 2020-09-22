@@ -19,7 +19,7 @@ To set up your computer, clone [this directory](https://github.com/alexhkurz/pro
 You now have a folder `programming-languages-2019/Lab1-Lambda-Calculus/LambdaNat0/
 `. This is the base folder to follow the instructions in this section.
 
-#### How to Generate a Parser
+### How to Generate a Parser
 
 To **view the grammar** of the pure lambda calculus go to the folder `grammar` and  open [LambdaNat0.cf](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/grammar/LambdaNat0.cf). 
 
@@ -38,7 +38,7 @@ To **parse a program** run, for example,
     
 *Exercise:* Write your own lamda calculus programs and parse them.
     
-#### How to Build an Interpreter
+### How to Build an Interpreter
 
 To **view the interpreter** find the folder `src` and open [interpreter.hs](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/src/Interpreter.hs).
     
@@ -73,7 +73,7 @@ If stack build fails:
 - On some installations where `stack build` fails, `cabal build` works. 
 -->
 
-#### How to Test the Interpreter
+### How to Test the Interpreter
 
 To **write a program** open a text editor and save the file in the folder `test` as, say, `myprogram.lc`. Or use one of the programs already available in the folder `test`.
 
