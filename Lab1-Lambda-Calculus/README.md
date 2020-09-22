@@ -21,9 +21,9 @@ You now have a folder `programming-languages-2019/Lab1-Lambda-Calculus/LambdaNat
 
 ### How to Generate a Parser
 
-To **view the grammar** of the pure lambda calculus go to the folder `grammar` and  open [LambdaNat0.cf](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/grammar/LambdaNat0.cf). 
+- To **view the grammar** of the pure lambda calculus go to the folder `grammar` and  open [LambdaNat0.cf](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/grammar/LambdaNat0.cf). 
 
-To **create a parser** run
+- To **create a parser** run
 
     bnfc -m -haskell LambdaNat0.cf
     make
@@ -32,7 +32,7 @@ To **create a parser** run
 If you cannot download or build [bnfc as described here](https://github.com/alexhkurz/programming-languages-2020/blob/master/BNFC-installation.md), you should still be able to run `make` as I uploaded to the folder `grammar` all files produced by `bnfc` (you may have to delete the executable `TestLambdaNat` in order to force make to do something).
 -->
 
-To **parse a program** run, for example,
+- To **parse a program** run, for example,
 
     echo "\x.x y z" | ./TestLambdaNat
     
@@ -40,14 +40,14 @@ To **parse a program** run, for example,
     
 ### How to Build an Interpreter
 
-To **view the interpreter** find the folder `src` and open [interpreter.hs](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/src/Interpreter.hs).
+- To **view the interpreter** find the folder `src` and open [interpreter.hs](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/src/Interpreter.hs).
     
-To **compile the interpreter** run (in the folder `Lab1-Lambda-Calculus/LambdaNat0`)
+- To **compile the interpreter** run (in the folder `Lab1-Lambda-Calculus/LambdaNat0`)
 
-    cp grammar/*.hs src 
-    stack build
+        cp grammar/*.hs src 
+        stack build
 
-The first command copies bnfc-generated files such as the definition of the algebraic data type for abstract syntax. The second command builds the interpreter itself.
+    The first command copies bnfc-generated files such as the definition of the algebraic data type for abstract syntax. The second command builds the interpreter itself.
 
 <!--
 If stack build fails:
@@ -75,11 +75,11 @@ If stack build fails:
 
 ### How to Test the Interpreter
 
-To **write a program** open a text editor and save the file in the folder `test` as, say, `myprogram.lc`. Or use one of the programs already available in the folder `test`.
+- To **write a program** open a text editor and save the file in the folder `test` as, say, `myprogram.lc`. Or use one of the programs already available in the folder `test`.
 
-To **execute a program**  in the lambda calculus run
+- To **execute a program**  in the lambda calculus run
 
-    stack exec LambdaNat-exe test/myprogram.lc
+        stack exec LambdaNat-exe test/myprogram.lc
 
 <!--
 If you used `cabal build`, then `cabal exec` instead of `stack exec` should work. If it doesn't, search for the executable `LambdaNat-exe` and execute it by giving its full path, which should be `dist/build/LambdaNat-exe/LambdaNat-exe` ... if you encounter this problem under Windows try
