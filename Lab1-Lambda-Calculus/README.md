@@ -17,7 +17,9 @@ To set up your computer, clone [this directory](https://github.com/alexhkurz/pro
     git clone https://github.com/alexhkurz/programming-languages-2019.git
     
 You now have a folder `programming-languages-2019/Lab1-Lambda-Calculus/LambdaNat0/
-`. This is the base folder to follow the instructions in this section on preliminary preparations.
+`. This is the base folder to follow the instructions in this section.
+
+#### Generate a Parser
 
 To **view the grammar** of the pure lambda calculus go to the folder `grammar` and  open [LambdaNat0.cf](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/grammar/LambdaNat0.cf). 
 
@@ -36,11 +38,16 @@ To **parse a program** run, for example,
     
 *Exercise:* Write your own lamda calculus programs and parse them.
     
+#### Build an Interpreter
+
 To **view the interpreter** find the folder `src` and open [interpreter.hs](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/LambdaNat0/src/Interpreter.hs).
     
 To **compile the interpreter** run (in the folder `Lab1-Lambda-Calculus/LambdaNat0`)
 
+    cp grammar/*.hs src 
     stack build
+
+The first command copies bnfc-generated files such as the definition of the algebraic data type for abstract syntax. The second command builds the interpreter itself.
 
 <!--
 If stack build fails:
@@ -65,6 +72,8 @@ If stack build fails:
        
 - On some installations where `stack build` fails, `cabal build` works. 
 -->
+
+#### Test the Interpreter
 
 To **write a program** open a text editor and save the file in the folder `test` as, say, `myprogram.lc`. Or use one of the programs already available in the folder `test`.
 
@@ -93,7 +102,7 @@ These functions are disappointingly simple and would not make one think that all
 For now, instead of encoding numbers, conditionals, and recursion in the pure lambda calculus, we will go into a different direction. We will add features to the basic language until we have enough to compute some reasonably interesting examples.
 
 
-## The Work Cycle
+## The Work Cycle: Build a New Language
 
 The Work Cycle that was used to produce all the different programming languages in this directory was as follows. 
 
