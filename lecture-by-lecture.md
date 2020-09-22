@@ -22,8 +22,6 @@
 
 #### Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
-(... currently copied from 2019 ... to be adapted to 2020 ...)
-
 [Lecture](https://hackmd.io/@alexhkurz/S1D0yP8Bw): Syntax of Lambda Calculus.   
 [Lecture](https://hackmd.io/@alexhkurz/H1e4Nv8Bv): Semantics of Lambda Calculus.   
 
