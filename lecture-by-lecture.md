@@ -11,11 +11,14 @@
 
 #### Introduction: Functional Programming (4 weeks)
 
-[Lecture 1.1](https://hackmd.io/@alexhkurz/SJKWvna6U): Imperative vs functional programming  
+[Lecture 1.1](https://hackmd.io/@alexhkurz/SJKWvna6U): Imperative vs functional programming   
+[Video review](https://www.youtube.com/watch?v=u_OMwv8tDVg&feature=youtu.be): The computational model of functional progrmming
 [Lecture 1.2](https://hackmd.io/@alexhkurz/H1jUka4Gv): Lab on recursive programming in Haskell  
-[Lectures 2.1-2](https://hackmd.io/@alexhkurz/SyxKCkR6U): A Calculator in Haskell (Abstract Syntax)    
+[Lectures 2.1-2.2](https://hackmd.io/@alexhkurz/SyxKCkR6U): A Calculator in Haskell (Abstract Syntax)    
 [Video review](https://www.youtube.com/watch?v=2YLfJvOtLwA): Recursion and pattern matching over algebraic data types in Haskell  
-[Lectures 3.1-4.1](https://hackmd.io/@alexhkurz/HJVtVl068): A Calculator in Haskell (Concrete Syntax) 
+[Lectures 3.1-4.2](https://hackmd.io/@alexhkurz/HJVtVl068): A Calculator in Haskell (Concrete Syntax) 
+[Video review](https://www.youtube.com/watch?v=jf1xhZSpCvg): Precedence levels in CFGs  
+
 
 [Assignment 1](assignments.md) 
 
