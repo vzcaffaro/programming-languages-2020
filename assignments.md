@@ -17,7 +17,10 @@ Anything unclear? Any questions? Let me know ...
 
 #### List of Assignments
 
-[Assignment 1](assignment-1.md) (9%): Functional Programming: First Steps in Haskell. Part 1 handed out Sept 15 (Part 2 to follow on Sept 17), hand-in Sept 28 (midnight, via github, but send me an email as well). I recommend to do Part 1 in the first week and Part 2 in the second week. 
+[Assignment 1](assignment-1.md) (9%): Functional Programming: First Steps in Haskell. 
+- Part 1 handed out Sept 15, **deadline Sept 28**.
+- Part 2 handed out Sept 17, material covered by Sep 24, **deadline Oct 1**.
+(Deadlines are by the end of the day, via github, but send me an email as well). I recommend to do Part 1 in the first week and Part 2 in the second week. 
 
 Assignment 2 (9%): Interpreter of a functional programming language
 

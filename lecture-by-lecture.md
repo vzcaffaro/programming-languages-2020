@@ -5,7 +5,7 @@
 
 ## Quick Links
 
-[Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](http://bnfc.digitalgrammars.com/) ... 
+[Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](https://github.com/alexhkurz/programming-languages-2020/blob/master/BNFC-installation.md/) ... 
 
 ## Lecture by Lecture
 
