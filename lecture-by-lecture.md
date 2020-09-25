@@ -35,7 +35,7 @@
 
 - 5.2: Semantics of Lambda Calculus ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv)
 
-- 6.1-2- : Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
+- 6.1-2: Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
 
 Assignment 2
 
