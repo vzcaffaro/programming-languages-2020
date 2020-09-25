@@ -28,7 +28,7 @@ less :: NN -> NN -> Bool
 
 -- greatest common divisor
 -- implement Euclid's algorithm, allow gcdN O O = O to make it simpler
--- use recursion on NN
+-- use recursion on NN and subtr (you don't need modulo)
 gcdN :: NN -> NN -> NN
 
 -------------------
