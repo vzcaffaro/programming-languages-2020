@@ -19,10 +19,14 @@ mult (S n) m = add m (mult n m)     -- (1 + n) * m = m + (n * m)
 
 -- subtraction
 subtr :: NN -> NN -> NN
-subtr O n = O                       -- 0 - n = 0 (because we do not do negative numbers here)
 subtr n O = n                       -- n - 0 = 0 
 subtr (S n) (S m) = subtr n m       -- (1 + n) - (1 + m) = n - m
 -- subtr (S (S O)) (S O)
+
+-- subtraction, alternate definition
+subt :: NN -> NN -> NN
+subt n m | n==m = O
+subt (S n) m = S(subt n m)
 
 -- less
 less :: NN -> NN -> Bool
