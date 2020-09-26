@@ -25,7 +25,7 @@ subtr (S n) (S m) = subtr n m       -- (1 + n) - (1 + m) = n - m
 
 -- subtraction, alternate definition
 subt :: NN -> NN -> NN
-subt n m | n==m = O
+subt n m | n==m = O                 -- the vertical bar allows us to put a condition on the variables
 subt (S n) m = S(subt n m)
 
 -- less
