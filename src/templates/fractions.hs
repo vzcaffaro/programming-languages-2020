@@ -1,6 +1,6 @@
-------------------
--- NATURAL NUMBERS
-------------------
+------------------------------
+-- LIBRARY for NATURAL NUMBERS
+------------------------------
 
 data NN = O | S NN
     deriving (Eq,Show)
@@ -31,9 +31,9 @@ less :: NN -> NN -> Bool
 -- use recursion on NN and subtr (you don't need modulo)
 gcdN :: NN -> NN -> NN
 
--------------------
--- POSITIVE NUMBERS
--------------------
+-------------------------------
+-- LIBRARY for POSITIVE NUMBERS
+-------------------------------
 
 data PN = I | T PN
     deriving (Eq,Show)

@@ -4,7 +4,7 @@ The assignment comes in 2 parts. Both parts are exercises in Haskell. This is im
 
 **Proper use of git will be taken into account for grading.**
 
-In your repo, make a folder called Assignment1. You can keep your version of the file `fractions.hs` there, as well as your version of the folder `Calculator`.
+In your repo, make a folder called Assignment1. You can keep your version of the file `fractions.hs` there, as well as your version of the folder `Calculator`. Build up your version of `fractions.hs` step by step as the template will not compile. Do not change my names of the functions (they are part of the specification).
 
 ## Part 1: Recursion (5 points)
 
@@ -18,7 +18,7 @@ The main idea is that a fraction is a pair `(numerator,denominator)` of two numb
 
     data NN = O | S NN
 
-then the positive numbers
+then the positive numbers (positive numbers start at 1, not 0)
 
     data PN = I | T PN
 
@@ -30,9 +30,9 @@ To program with fractions you need to know that if `p` is a pair in Haskell, the
 
 The programming techniques follow closely the lectures and the homework. Start from the the [template `fractions.hs`](src/templates/fractions.hs). Here are some remarks:
 
-- First you develop a library of functions to compute with natural numbers and with positive numbers. In this part you will mostly use recursion.
-- Then you implement arithmetic of fractions. This implements the way you computed with fractions at school using the library functions.
-- Finally, for testing, it is convenient to have functions that convert our numbers of type `NN`, `PN`, `Frac` to Haskell numbers and back. Use these functions only for testing, not to implement the arithmetic on `NN`, `PN`, `Frac`.
+- First you develop a "library" of functions to compute with natural numbers and with positive numbers. In this part you will mostly use recursion.
+- Then you implement arithmetic of fractions. This implements the way you computed with fractions at school using the library functions. You will not have to directly use "O,S,I,T" in this part.
+- Writing and reading larger successor numbers is tedious. Therefore it is convenient to have functions that convert our numbers of type `NN`, `PN`, `Frac` to Haskell numbers and back. Use these functions only for testing, not to implement the arithmetic on `NN`, `PN`, `Frac`.
 
 Hint: Spend some time on thinking about the logic behind each function. Once you have the idea, the solution will be short. Most of the functions are two-liners.
 
