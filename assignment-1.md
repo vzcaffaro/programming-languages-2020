@@ -26,17 +26,23 @@ then the fractions as tuples, or pairs, `(numerator, denominator)` of type `(NN,
 
     type Frac = (NN,PN)
 
-To program with fractions you need to know that if `p` is a pair in Haskell, then you can access the components with `fst p` and `snd p`. 
+To program with fractions you need to know that if `p` is a pair in Haskell, then you can access the components with `fst p` and `snd p`. You can test this in the Haskell console as follows,
+
+    Main> p = (2,3)
+    Main> fst p
+    2
+    Main> snd p
+    3
 
 The programming techniques follow closely the lectures and the homework. Start from the the [template `fractions.hs`](src/templates/fractions.hs). Here are some remarks:
 
-- First you develop a "library" of functions to compute with natural numbers and with positive numbers. In this part you will mostly use recursion.
-- Then you implement arithmetic of fractions. This implements the way you computed with fractions at school using the library functions. You will not have to directly use "O,S,I,T" in this part.
-- Writing and reading larger successor numbers is tedious. Therefore it is convenient to have functions that convert our numbers of type `NN`, `PN`, `Frac` to Haskell numbers and back. Use these functions only for testing, not to implement the arithmetic on `NN`, `PN`, `Frac`.
+1. First you develop a "library" of functions to compute with `NN`s and `PN`s. In this part you will mostly use recursion.
+2. Then you implement arithmetic of fractions. For this you need to remember the rules of high-school algebra and implement them using the library functions of item 1. You will not have to directly use `O,S,I,T` in this part.
+3. Writing and reading larger successor numbers is tedious. Therefore it is convenient to have functions that convert numbers of type `NN`, `PN`, `Frac` to Haskell numbers and back. Use these functions only for testing, not to implement the arithmetic on `NN`, `PN`, `Frac`.
 
 Hint: Spend some time on thinking about the logic behind each function. Once you have the idea, the solution will be short. Most of the functions are two-liners.
 
-Hint: While mathematically each line below represents the same number
+Hint: Mathematically each line below represents the same number.
 
 | `NN` | `PN` | `Int`
 |:---:|:---:|:---:|
@@ -45,7 +51,7 @@ Hint: While mathematically each line below represents the same number
 | S (S O) | T I | 2
 | S (S (S O)) | T(T I) | 3
 
-in Haskell these data types are disjoint. For example, if you input a `I` or a `1` to a function that expects data of type `NN`, you will get an error message.
+But in Haskell these data types are disjoint. For example, if you input an `I` or a `1` to a function that expects data of type `NN`, you will get an error message.
 
 ## Part 2: A Calculator (4 points)
 
