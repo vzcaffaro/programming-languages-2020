@@ -1,10 +1,10 @@
 # Assignment 1
 
-The assignment comes in 2 parts. Both parts are exercises in Haskell. This is important since we will use Haskell throughout this course and also next semester in Compiler Construction. 
+The assignment comes in 2 parts. Both parts are exercises in Haskell. This is important since we will use Haskell throughout this course and also next semester in Compiler Construction. (As a footnote, I want to add that Haskell is only a (very good) tool for us, one could use any other programming language for the same purpose in principle, even if it was infeasible in practice. In fact, if you want to compare Haskell to another programming language you already know, this would be a great idea for your blog to implement this assignment also in, say, one of Java, Python, C++, etc and then to compare the two implementations.)
 
 **Proper use of git will be taken into account for grading.**
 
-But I want to emphasize that Haskell is only a (very good) tool for us, one could use any other programming language for the same purpose. In fact, if you want to compare Haskell to another programming language you already know, it would be a great idea for your blog to implement this assignment also in, say, one of Java, Python, C++, etc and then to compare the two implementations.
+In your repo, make a folder called Assignment1. You can keep your version of the file `fractions.hs` there, as well as your version of the folder `Calculator`.
 
 ## Part 1: Recursion (5 points)
 

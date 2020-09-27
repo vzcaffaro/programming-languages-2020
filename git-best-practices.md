@@ -1,4 +1,12 @@
-# Git best practices
+# On the Use of Git
+
+[Git](https://en.wikipedia.org/wiki/Git) is a version control software created by Linus Torvalds (also responsible for giving us Linux). There are different commercial implementations of git. I mostly use [Github](https://github.com/) and that is what I am referring to in the following.
+
+## New to Git?
+
+Have a look at this [tutorial](https://guides.github.com/activities/hello-world/). Let me know if there are problems or if you have other helpful sources.
+
+## Git best practices
 
 I collect here some lessons learned from using git for [assignments](assignments.md). 
 
