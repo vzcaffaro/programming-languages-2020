@@ -36,6 +36,17 @@ The programming techniques follow closely the lectures and the homework. Start f
 
 Hint: Spend some time on thinking about the logic behind each function. Once you have the idea, the solution will be short. Most of the functions are two-liners.
 
+Hint: While mathematically each line below represents the same number
+
+| `NN` | `PN` | `Int`
+|:---:|:---:|:---:|
+| O | | 0
+| S O | I | 1
+| S (S O) | T I | 2
+| S (S (S O)) | T(T I) | 3
+
+in Haskell these data types are disjoint. For example, if you input a `I` or a `1` to a function that expects data of type `NN`, you would get an error message.
+
 ## Part 2: A Calculator (4 points)
 
 In the first part, we have seen how to define fractions from scratch, and how to implement the mathematical definitions using recursion on algebraic data types. The host language (Haskell) was only used to execute the equational reasoning based on the recursive mathematical equations.
