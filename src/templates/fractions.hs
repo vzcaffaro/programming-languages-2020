@@ -38,11 +38,11 @@ gcdN :: NN -> NN -> NN
 data PN = I | T PN
     deriving (Eq,Show)
 
--- addition of positive numbers
+-- addition of PNs
 -- use recursion over PN
 addP :: PN -> PN -> PN
 
--- multiplication of positive numbers
+-- multiplication of PNs
 -- use recursion over PN
 multP :: PN -> PN -> PN
 
@@ -50,11 +50,11 @@ multP :: PN -> PN -> PN
 -- use recursion over PN
 lessP :: PN -> PN -> Bool
 
--- subtract a positive number from a natural number
+-- subtract a PN from an NN
 -- use recursion over NN
 subtrNP :: NN -> PN -> NN
 
--- divide a natural number by a positive number
+-- divide an NN by a PN
 -- use recursion over NN
 divP :: NN -> PN -> NN
 
@@ -99,11 +99,11 @@ simplifyF :: Frac -> Frac
 nn2int :: NN -> Int
 
 -- use recursion on Int
--- allow runtime error for negative numbers
+-- allow runtime error for negative integers
 int2nn :: Int -> NN
 
 -- use recursion on Int
--- allow runtime error for non-positive numbers
+-- allow runtime error for non-positive integers
 int2pn :: Int -> PN
 
 -- use int2nn and int2pn
