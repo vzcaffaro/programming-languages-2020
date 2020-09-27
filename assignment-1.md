@@ -26,12 +26,12 @@ then the fractions as tuples, or pairs, `(numerator, denominator)` of type `(NN,
 
     type Frac = (NN,PN)
 
-To program with fractions you need to know that if `p` is a pair in Haskell, then you can access the components with `fst p` and `snd p`. You can test this in the Haskell console as follows,
+To program with fractions you need to know that if `pair` is a pair in Haskell, then you can access the components with `fst pair` and `snd pair`. You can test this in the Haskell console as follows.
 
-    Main> p = (2,3)
-    Main> fst p
+    Main> pair = (2,3)
+    Main> fst pair
     2
-    Main> snd p
+    Main> snd pair
     3
 
 The programming techniques follow closely the lectures and the homework. Start from the the [template `fractions.hs`](src/templates/fractions.hs). Here are some remarks:
@@ -40,18 +40,31 @@ The programming techniques follow closely the lectures and the homework. Start f
 2. Then you implement arithmetic of fractions. For this you need to remember the rules of high-school algebra and implement them using the library functions of item 1. You will not have to directly use `O,S,I,T` in this part.
 3. Writing and reading larger successor numbers is tedious. Therefore it is convenient to have functions that convert numbers of type `NN`, `PN`, `Frac` to Haskell numbers and back. Use these functions only for testing, not to implement the arithmetic on `NN`, `PN`, `Frac`.
 
-Hint: Spend some time on thinking about the logic behind each function. Once you have the idea, the solution will be short. Most of the functions are two-liners.
+In the following I collect some hints that grew out of discussions within the class.
 
-Hint: Mathematically each line below represents the same number.
+- *Hint:* Spend some time on thinking about the logic behind each function. Once you have the idea, the solution will be short. Most of the functions are two-liners.
 
-| `NN` | `PN` | `Int`
-|:---:|:---:|:---:|
-| O | | 0
-| S O | I | 1
-| S (S O) | T I | 2
-| S (S (S O)) | T(T I) | 3
+- *Hint:* Mathematically each line below represents the same number.
 
-But in Haskell these data types are disjoint. For example, if you input an `I` or a `1` to a function that expects data of type `NN`, you will get an error message.
+    | `NN` | `PN` | `Int`
+    |:---:|:---:|:---:|
+    | O | | 0
+    | S O | I | 1
+    | S (S O) | T I | 2
+    | S (S (S O)) | T(T I) | 3
+    | ... | ... | ...
+
+    But in Haskell **these data types are disjoint**. For example, if you input an `I` or a `1` to a function that expects data of type `NN`, you will get an error message.
+
+- *Hint:* Separate clearly in your mind syntax from semantics (=meaning=interpretation): Syntactically, `O` and `I` are just symbols. The meaning of these symbols only arises from how we interpret the operations on these data. For example, if we write a function
+
+        add O n = n
+
+    this is consistent with our interpretation of `O` as $0$, because we know that $0+n=n$. On the other hand, if we simply transferred this idea from `NN` to `PN` writing
+
+        addP I p = p 
+
+    then this would *not* be consistent with `I` meaning $1$, because $1+p=p$ is not a valid  equation.
 
 ## Part 2: A Calculator (4 points)
 
@@ -72,7 +85,7 @@ Download the [template `numbers3.hs`](src/Haskell/numbers3.hs). It contains the 
 
 
 
-**Task**: Extend the definition of `Exp` and `eval` by 5 other operations on the integers. Use the native Haskell operations on Int.
+**Task 1**: Extend the definition of `Exp` and `eval` by 5 other operations on the integers. Use the native Haskell operations on Int.
 
 ### An interpreter for concrete syntax (2 points)
 
@@ -86,7 +99,7 @@ Have a look at the [directory `Calculator3`](src/Calculator3). The file `Interpr
 
 Compiling `numbers.cf` with `bnfcc` generates a number of files, in particular `AbsNumbers.hs`, which contains the definition of `Exp` (check for yourself).
 
-**Task**: 
+**Task 2**: 
 - Extend the grammar with syntax for the 5 operations from the previous task. 
 - Compile the grammar with `bnfc`.
 - Extend the interpreter as you have done in the previous task.

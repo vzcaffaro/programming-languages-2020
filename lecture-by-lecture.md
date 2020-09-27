@@ -16,18 +16,20 @@
 - 2.1-2.2: **A Calculator in Haskell (Abstract Syntax)** ... [notes](https://hackmd.io/@alexhkurz/SyxKCkR6U)
 - 3.1-4.2: **A Calculator in Haskell (Concrete Syntax)** ...  [notes](https://hackmd.io/@alexhkurz/HJVtVl068)
 - Videos:
-  - [The computational model of functional programming](https://www.youtube.com/watch?v=u_OMwv8tDVg&feature=youtu.be)
-  - [gcd and Euclid's algorithm](https://www.youtube.com/watch?v=ZcJMj0antos)
-  - [Recursion and pattern matching over algebraic data types in Haskell](https://www.youtube.com/watch?v=2YLfJvOtLwA)
-  - [Precedence levels in CFGs](https://www.youtube.com/watch?v=jf1xhZSpCvg)  
-  - [Uniqueness of parse trees](https://www.youtube.com/watch?v=3ZLkPwB_c9g) 
+  - [The computational model of functional programming](https://youtu.be/u_OMwv8tDVg)
+  - [Haskell Tips I](https://youtu.be/wj0j2HjMw6w)
+  - [Haskell Tips II](https://youtu.be/naNLE4GLrTo)
+  - [gcd and Euclid's algorithm](https://youtu.be/ZcJMj0antos)
+  - [Recursion over algebraic data types in Haskell](https://youtu.be/2YLfJvOtLwA)
+  - [Precedence levels in CFGs](https://youtu.be/jf1xhZSpCvg)  
+  - [Uniqueness of parse trees](https://youtu.be/3ZLkPwB_c9g) 
 
 [Assignment 1](assignments.md) 
 
 
 #### Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
-- 5.1: Syntax of Lambda Calculus ... [video preview](https://www.youtube.com/watch?v=D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw)
+- 5.1: Syntax of Lambda Calculus ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw)
 - 5.2: Semantics of Lambda Calculus ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv)
 - 6.1-2: Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
 
