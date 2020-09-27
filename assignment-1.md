@@ -45,7 +45,7 @@ Hint: While mathematically each line below represents the same number
 | S (S O) | T I | 2
 | S (S (S O)) | T(T I) | 3
 
-in Haskell these data types are disjoint. For example, if you input a `I` or a `1` to a function that expects data of type `NN`, you would get an error message.
+in Haskell these data types are disjoint. For example, if you input a `I` or a `1` to a function that expects data of type `NN`, you will get an error message.
 
 ## Part 2: A Calculator (4 points)
 
