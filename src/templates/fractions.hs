@@ -9,18 +9,33 @@ data NN = O | S NN
 add :: NN -> NN -> NN
 add O n = n
 add (S n) m = S (add n m)
+{- 
+input/output:
+add (S(S O)) (S O)
+S (S (S O)) 
+-}
 
 -- multiplication
 mult :: NN -> NN -> NN
 mult O n = O
 mult (S O) n = n
 mult (S n) m = add m (mult n m)
+{-
+input/output:
+mult (S(S O)) (S(S O))
+S (S (S (S O))) 
+-}
 
 -- subtract 
 subtr :: NN -> NN -> NN
 subtr O n = O
 subtr n O = n
 subtr (S n) (S m) = subtr n m
+{-
+input/output: 
+subtr (S(S O)) (S O)
+S O 
+-}
 
 -- less n m if n < m
 -- use recursion on NN
