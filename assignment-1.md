@@ -76,14 +76,14 @@ In the second part, we will now allow ourselves to use the built-in arithmetic o
 
 Download the [template `numbers3.hs`](src/Haskell/numbers3.hs). It contains the definition of a language for arithmetic expressions and an interpreter evaluating these expressions into the Haskell integers:
 
-    data Exp = Num Int | Plus Exp Exp | Times Exp Exp 
+    data Exp = Num Integer | Plus Exp Exp | Times Exp Exp 
 
-    eval :: Exp -> Int
+    eval :: Exp -> Integer
     eval (Num n) = n
     eval (Plus n m) = (eval n) + (eval m)
     eval (Times n m) = (eval n) * (eval m)
 
-
+You can also use the operations defined at [GHC.Integer](https://hackage.haskell.org/package/integer-gmp-0.5.1.0/docs/GHC-Integer.html) if you add `import GHC.Integer` to `Interpreter.hs`.
 
 **Task 1**: Extend the definition of `Exp` and `eval` by 5 other operations on the integers. Use the native Haskell operations on Int.
 
