@@ -83,9 +83,23 @@ Download the [template `numbers3.hs`](src/Haskell/numbers3.hs). It contains the 
     eval (Plus n m) = (eval n) + (eval m)
     eval (Times n m) = (eval n) * (eval m)
 
-You can also use the operations defined at [GHC.Integer](https://hackage.haskell.org/package/integer-gmp-0.5.1.0/docs/GHC-Integer.html) if you add `import GHC.Integer` to `Interpreter.hs`.
+Here are some tips of how to find such operations in Haskell. 
+- In ghci you can run `:i Integer` to find information about the data type `Integer`. This leads you to [GHC.Integer](https://hackage.haskell.org/package/integer-gmp-1.0.3.0/docs/GHC-Integer.html) and shows that `Integer` is an instance of various [type classes](http://learnyouahaskell.com/types-and-typeclasses) such as `Num`, `Real`, and `Integral`. To sumarize, run in ghci
 
-**Task 1**: Extend the definition of `Exp` and `eval` by 5 other operations on the integers. Use the native Haskell operations on Int.
+        :i Integer
+        :i Num
+        :i Real
+        :i Integral
+
+- You can use the operations defined at [GHC.Integer](https://hackage.haskell.org/package/integer-gmp-0.5.1.0/docs/GHC-Integer.html) if you add `import GHC.Integer` to `Interpreter.hs`. 
+- Since the type `Integer` is an instance of the type classes `Num` and `Real` you can also use the operations at [GHC.Num](https://hackage.haskell.org/package/base-4.14.0.0/docs/GHC-Num.html) and [GHC.Real](https://www.haskell.org/haddock/libraries/GHC.Real.html).
+- `:i Num` gives `(+)` and `(-)` and `(*)` and some more but not exponentiation. I said that "Haskell has no secrets" when we implemented our own arithmetic on numbers. But if you start to using libraries that is not true anymore. So what can we do? One is to guess notation and run in ghci a command such as 
+
+        :t (^)
+
+    Then, if you want to see how functions such as `(^)` are implemented you can look them up in [Hoogle](https://hoogle.haskell.org/?hoogle=%5E&scope=set%3Astackage) and follow the links that will lead you to the source code.
+
+**Task 1**: Extend the definition of `Exp` and `eval` by 5 other operations on the integers. Use the native Haskell operations on `Integer`.
 
 ### An interpreter for concrete syntax (2 points)
 
