@@ -29,18 +29,34 @@ Installing BNFC under Linux/MacOS requires installing the programming language [
 
 Download and install the [Haskell platform](https://www.haskell.org/platform/). 
 
+<!--
 Create a directory in which you want to clone the BNFC github directory and `cd` there in a terminal. Then perform the following commands (you may have to add a `cabal update` before the `make`).
 
     git clone https://github.com/BNFC/bnfc
     cd bnfc  
     make
-    
-If you don't have `make` try `sudo apt install make`.
-
-<!--
-If make doesn't find `alex` or `happy' look [here].
 -->
 
+Run in a terminal
+
+    brew install bnfc
+
+After that take a grammar such as `numbers.cf` and run in a terminal
+
+    bnfc -m --haskell numbers.cf
+    make
+
+- If you don't have `make` try `sudo apt install make`.
+
+- If make doesn't find `alex` or `happy`:
+
+    curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+    cabal install alex 
+    cabal install happy 
+
+and follow possible suggestions such as to source env with `source env`.
+
+<!--
 After calling `make` I get a long list of output finishing with
 
            Configuring BNFC-2.8.3...
@@ -54,6 +70,7 @@ As far as I understand the missing dependencies and the error can be ignored as 
 Use your file browser to find where the exectuable `bnfc` is. I found it as `bnfc/source/dist/build/bnfc` (the first occurrence of `bnfc` refers to the directory cloned from github, the second occurrence refers to the executable).
 
 Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. We need to make sure that `bnfc` will be "in the path". I collected some information on [setting the PATH variable](PATH.md). 
+-->
  
 Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you if you have a more recent version.)
 
