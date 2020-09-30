@@ -5,7 +5,7 @@ data Exp = Num Integer | Plus Exp Exp | Times Exp Exp
 
 eval :: Exp -> Integer
 eval (Num n) = n
--- the next two equations show two common naming conventions
+-- the next two equations show two common naming conventions for variables
 -- choose the one you like better
 eval (Plus e1 e2) = (eval e1) + (eval e2)
 eval (Times e e') = (eval e) * (eval e')
