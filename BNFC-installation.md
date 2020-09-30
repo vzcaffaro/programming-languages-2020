@@ -50,9 +50,9 @@ After that take a grammar such as `numbers.cf` and run in a terminal
 
 - If make doesn't find `alex` or `happy`:
 
-    curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
-    cabal install alex 
-    cabal install happy 
+        curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+        cabal install alex 
+        cabal install happy 
 
 and follow possible suggestions such as to source env with `source env`.
 
