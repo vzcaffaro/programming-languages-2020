@@ -105,6 +105,8 @@ Download the [template `numbers3.hs`](src/Haskell/numbers3.hs). It contains the 
 
 ### An interpreter for concrete syntax (2 points)
 
+Checkout [the lecture notes](https://hackmd.io/@alexhkurz/HJVtVl068#Generating-a-Parser-from-a-Context-Free-Grammar) for the relevant workflow.
+
 Have a look at the [directory `Calculator3`](src/Calculator3). The file `Interpreter.hs` contains the function `eval`. The data type `Exp` will be generated automatically by `bnfc`  (see the lecture) from the grammar in `numbers.cf`:
 
     Plus. Exp ::= Exp "+" Exp1 ;
