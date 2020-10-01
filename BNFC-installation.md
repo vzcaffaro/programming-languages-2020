@@ -1,6 +1,6 @@
 # BNFC installation
 
-The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, but installation instructions in the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) are out of date, so we need to work a bit to find our way. I will add information here as we go along and learn more about the best way to get this done. Let me know about anything that may be useful to add. 
+The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, but installation instructions in the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) may need a bit of work. I will add information here as we go along and learn more about the best way to get this done. Let me know about anything that may be useful to add. 
 
 ## Working under Windows
 
@@ -15,13 +15,15 @@ This video may help to install the [Haskell Platform in WSL](https://www.youtube
     sudo apt install haskell-platform
     sudo apt install haskell-stack
 
-You can try the executable from [BNFC homepage](http://bnfc.digitalgrammars.com/). If that doesnt work 
+Once you have Linux running you can try the executable from [BNFC homepage](http://bnfc.digitalgrammars.com/). If that doesn't work make your own:
 
     git clone https://github.com/BNFC/bnfc
     cd bnfc  
     make
 
 If you don't have `make` try `sudo apt install make`.
+
+You should now be able to [continue here](https://hackmd.io/@alexhkurz/HJVtVl068#Generating-a-Parser-from-a-Context-Free-Grammar).
 
 <!--
 ## Working with Docker
@@ -54,15 +56,13 @@ After that take a grammar such as `numbers.cf` and run in a terminal
     bnfc -m --haskell numbers.cf
     make
 
-- If you don't have `make` try `sudo apt install make`.
-
 - If make doesn't find `alex` or `happy`:
 
         curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
         cabal install alex 
         cabal install happy 
 
-and follow possible suggestions such as to source env with `source env`.
+    and follow possible suggestions such as to source `env` in `.ghcup` with `source ~/.ghcup/env`.
 
 <!--
 After calling `make` I get a long list of output finishing with
