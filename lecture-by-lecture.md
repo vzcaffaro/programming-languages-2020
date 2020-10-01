@@ -30,7 +30,7 @@
 #### Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
 - 5.1: Syntax of Lambda Calculus ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw) ... video reviews on parsing [1](https://youtu.be/eYstx7uuE6c) and [2](https://youtu.be/yls1NEUlzZA)
-- 5.2: Semantics of Lambda Calculus ...[video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://youtu.be/h4aT42t7v9c)
+- 5.2: Semantics of Lambda Calculus ...[video preview](https://youtu.be/h4aT42t7v9c) ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv)
 - 6.1-2: Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
 
 - Videos:
