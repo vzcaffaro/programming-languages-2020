@@ -5,7 +5,7 @@
 
 ## Quick Links
 
-[Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](https://github.com/alexhkurz/programming-languages-2020/blob/master/BNFC-installation.md/) ... 
+[Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](BNFC-installation.md) ... 
 
 ## Lecture by Lecture
 
@@ -29,9 +29,15 @@
 
 #### Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
 
-- 5.1: Syntax of Lambda Calculus ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw)
-- 5.2: Semantics of Lambda Calculus ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv)
+- 5.1: Syntax of Lambda Calculus ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw) ... video reviews on parsing [1](https://youtu.be/eYstx7uuE6c) and [2](https://youtu.be/yls1NEUlzZA)
+- 5.2: Semantics of Lambda Calculus ...[video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://youtu.be/h4aT42t7v9c)
 - 6.1-2: Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
+
+- Videos:
+  - [Syntax of Lambda Calculus](https://youtu.be/D0kH1BpNr14)
+  - [Parsing Lambda Calculus Expressions 1](https://youtu.be/eYstx7uuE6c)
+  - [Parsing Lambda Calculus Expressions 2](https://youtu.be/yls1NEUlzZA)
+  - [Operational Semantics of Lambda Calculus](https://youtu.be/h4aT42t7v9c)
 
 Assignment 2
 
