@@ -115,7 +115,7 @@ Have a look at the [directory `Calculator3`](src/Calculator3). The file `Interpr
 
     coercions Exp 2 ;
 
-Compiling `numbers.cf` with `bnfcc` generates a number of files, in particular `AbsNumbers.hs`, which contains the definition of `Exp` (check for yourself).
+Compiling `numbers.cf` with `bnfc` generates a number of files, in particular `AbsNumbers.hs`, which contains the definition of `Exp` (check for yourself).
 
 **Task 2**: 
 - Extend the grammar with syntax for the 5 operations from the previous task. 
