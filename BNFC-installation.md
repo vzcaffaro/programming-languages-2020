@@ -15,6 +15,14 @@ This video may help to install the [Haskell Platform in WSL](https://www.youtube
     sudo apt install haskell-platform
     sudo apt install haskell-stack
 
+You can try the executable from [BNFC homepage](http://bnfc.digitalgrammars.com/). If that doesnt work 
+
+    git clone https://github.com/BNFC/bnfc
+    cd bnfc  
+    make
+
+If you don't have `make` try `sudo apt install make`.
+
 <!--
 ## Working with Docker
 
