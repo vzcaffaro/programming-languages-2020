@@ -25,3 +25,24 @@ Here are some things I would like to learn from you:
 - What are, in your opinion, the major stumbling blocks in learning Haskell?
 - Are there any projects you implemented in Haskell that go beyond what we do in class?
 
+**Some Remarks**
+
+Personally, I am more interested in content than in form. So if you take the github repo of this course as a guideline this is fine. But I don't want to discourage more sophisticated design of a webpage. If you like to design a fancy webpage, that will gain you points as well.
+
+Your blog should 
+- approximately/on average has one entry/page per week;
+- be organised by time or topic;
+- start at the beginning (on what hardware/operating system are you working, how did you install Haskell, ...);
+- contain you own example, observations;
+- interleave narrative with code examples;
+- make clear how a reader can execute the code examples;
+
+***I don't want to limit your creativity, so let me know if you have your own ideas.***
+
+**Marking Guidelines:**
+
+- **D:** Demonstrates basic familiarity with Haskell.  
+- **C:** Demonstrates adequate familiarity with Haskell. Develops own examples along the lines of the homework.
+- **B:** Demonstrates good understanding of Haskell. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class. Can be recommended to a beginning Haskeller as a first introduction. Makes connections between the practical and theoretical parts of the course. 
+- **A:** Demonstrates a very good understanding of Haskell. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of great interest to a beginning Haskeller. Makes interesting connections between the practical and theoretical parts of the course. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project.
+
