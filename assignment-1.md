@@ -2,7 +2,7 @@
 
 The assignment comes in 2 parts. Both parts are exercises in Haskell. This is important since we will use Haskell throughout this course and also next semester in Compiler Construction. (As a footnote, I want to add that Haskell is only a (very good) tool for us, one could use any other programming language for the same purpose in principle, even if it was infeasible in practice. In fact, if you want to compare Haskell to another programming language you already know, this would be a great idea for your blog to implement this assignment also in, say, one of Java, Python, C++, etc and then to compare the two implementations.)
 
-**Proper use of git will be taken into account for grading.**
+**Proper use of git will be taken into account for grading.** asdfasdfasdf
 
 In your repo, make a folder called Assignment1. You can keep your version of the file `fractions.hs` there, as well as your version of the folder `Calculator`. Build up your version of `fractions.hs` step by step as the template will not compile. Do not change my names of the functions (they are part of the specification).
 
@@ -90,6 +90,8 @@ Download the [template `numbers3.hs`](src/Haskell/numbers3.hs). It contains the 
         :i Num
         :i Integral
         :i Real
+
+    [*Warning:* That the label `Num` in `Exp` is the same string as the name of the type class `Num` is purely coincidental.]
 
 - This gives `(+)` and `(-)` and `(*)` and some more but not exponentiation. I said that "Haskell has no secrets" when we implemented our own arithmetic on numbers. But if you start to using libraries that is not true anymore. So what can we do? 
     - One is to guess notation and run in ghci a command such as 
