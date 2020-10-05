@@ -27,26 +27,36 @@
 [Assignment 1](assignments.md) 
 
 
-#### Lambda Calculus: Creating our own Functional Programming Language (2 weeks)
+#### Lambda Calculus(1 week)
 
 - 5.1: Syntax of Lambda Calculus ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw) ... video reviews on parsing [1](https://youtu.be/eYstx7uuE6c) and [2](https://youtu.be/yls1NEUlzZA)
-- 5.2: Semantics of Lambda Calculus ...[video preview](https://youtu.be/h4aT42t7v9c) ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv)
-- 6.1-2: Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
+- 5.2: Semantics of Lambda Calculus ...[video preview](https://youtu.be/h4aT42t7v9c) ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv) ... [video review](https://youtu.be/for3Meg1Lbc)
 
 - Videos:
   - [Syntax of Lambda Calculus](https://youtu.be/D0kH1BpNr14)
   - [Parsing Lambda Calculus Expressions 1](https://youtu.be/eYstx7uuE6c)
   - [Parsing Lambda Calculus Expressions 2](https://youtu.be/yls1NEUlzZA)
   - [Operational Semantics of Lambda Calculus](https://youtu.be/h4aT42t7v9c)
+  - [Reducing Lambda Expressions](https://youtu.be/for3Meg1Lbc)
 
-Assignment 2
+#### Blog
 
-#### Termrewriting as a Model of Computation (4 weeks, examinable)
+Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks = 5 entries) until **Mon, Oct 12**. You will receice up to 2.5 points "on completion", will not be graded for content yet, so you will have more time to flesh this out and polish it.
+
+#### Termrewriting as a Model of Computation (2 weeks, examinable)
 
 - Operational and Denotational Semantics
 - Confluence and Normal Forms
 - Termination
 - Mathematical Proofs
+
+#### Assignment 2: Creating our own Functional Programming Language (1 week)
+
+Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
+
+
+#### Logic and Reasoning (2 weeks)
+
 - Rules of Logic
 - Invariants
 - Normalisation by Evaluation

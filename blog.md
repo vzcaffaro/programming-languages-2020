@@ -46,3 +46,13 @@ Your blog should
 - **B:** Demonstrates good understanding of Haskell. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class. Can be recommended to a beginning Haskeller as a first introduction. Makes connections between the practical and theoretical parts of the course. 
 - **A:** Demonstrates a very good understanding of Haskell. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of great interest to a beginning Haskeller. Makes interesting connections between the practical and theoretical parts of the course. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project.
 
+**Ideas for the blog:**
+- General remark: In did have quite a number of interesting discussions with students, on the discussion forum or via email, about curious observations concerning Haskell, bnfc and the like ... typically these observations would also make interesting points for the blog.
+- Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better.
+- Benchmark the same algorithms in Python and Haskell. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run.
+- Explain how to use docker to setup Haskell and bnfc.
+- Add Booleans, comparisons, if-then-else to the calculator.
+- Haskell and $\lambda$-calculus: Write the same program in both languages and compare.
+- Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
+- ... let me know if you have your own ideas ... the blog is a space where you can be creative ...
+- ...
