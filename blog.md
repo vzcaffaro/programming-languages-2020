@@ -27,15 +27,16 @@ Here are some things I would like to learn from you:
 
 **Some Remarks**
 
-Personally, I am more interested in content than in form. So if you take the github repo of this course as a guideline this is fine. But I don't want to discourage more sophisticated design of a webpage. If you like to design a fancy webpage, that will gain you points as well.
+Personally, I am more interested in content than in form. So if you take my github repo for this course as a guideline this is fine. But I don't want to discourage more sophisticated design of a webpage. If you like to design a fancy webpage, that will gain you points as well.
 
 Your blog should 
-- approximately/on average has one entry/page per week;
+- approximately/on average has one entry/page per week (10 in total should suffice);
 - be organised by time or topic;
-- start at the beginning (on what hardware/operating system are you working, how did you install Haskell, ...);
-- contain you own example, observations;
-- interleave narrative with code examples;
+- start at the beginning (for example, on what hardware/operating system are you working, how did you install Haskell, ...);
+- contain you own examples, observations;
+- interleave narrative with code;
 - make clear how a reader can execute the code examples;
+- ...
 
 ***I don't want to limit your creativity, so let me know if you have your own ideas.***
 
@@ -45,6 +46,8 @@ Your blog should
 - **C:** Demonstrates adequate familiarity with Haskell. Develops own examples along the lines of the homework.
 - **B:** Demonstrates good understanding of Haskell. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class. Can be recommended to a beginning Haskeller as a first introduction. Makes connections between the practical and theoretical parts of the course. 
 - **A:** Demonstrates a very good understanding of Haskell. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of great interest to a beginning Haskeller. Makes interesting connections between the practical and theoretical parts of the course. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project.
+
+Again, if you have your own ideas, let me know. I am happy to adapt these guidelines if they do not fit what you have in mind.
 
 **Ideas for the blog:**
 - General remark: In did have quite a number of interesting discussions with students, on the discussion forum or via email, about curious observations concerning Haskell, bnfc and the like ... typically these observations would also make interesting points for the blog.

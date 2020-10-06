@@ -27,7 +27,7 @@
 [Assignment 1](assignments.md) 
 
 
-#### Lambda Calculus(1 week)
+#### Lambda Calculus (1 week)
 
 - 5.1: Syntax of Lambda Calculus ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw) ... video reviews on parsing [1](https://youtu.be/eYstx7uuE6c) and [2](https://youtu.be/yls1NEUlzZA)
 - 5.2: Semantics of Lambda Calculus ...[video preview](https://youtu.be/h4aT42t7v9c) ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv) ... [video review](https://youtu.be/for3Meg1Lbc)
@@ -41,14 +41,13 @@
 
 #### Blog
 
-Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks = 5 entries) until **Mon, Oct 12**. You will receice up to 2.5 points "on completion", will not be graded for content yet, so you will have more time to flesh this out and polish it.
+Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks = 5 entries) until **Mon, Oct 12**. You will receice up to 2.5 points "on completion" (no grading for content yet), so you will have more time to flesh this out and polish it.
 
-#### Termrewriting as a Model of Computation (2 weeks, examinable)
+#### Termrewriting as a Model of Computation (1 weeks, examinable)
 
-- Operational and Denotational Semantics
-- Confluence and Normal Forms
-- Termination
-- Mathematical Proofs
+- 6.1: Abstract Reduction Systems: [Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v) and [Confluence and Normal Forms](https://hackmd.io/@alexhkurz/r1hRZaG8v)    
+- 6.2: ARS: [Termination](https://hackmd.io/@alexhkurz/BJoZF44Iw) and [Finitely Branching ARSs](https://hackmd.io/@alexhkurz/rkX-t-HdH)     
+
 
 #### Assignment 2: Creating our own Functional Programming Language (1 week)
 
