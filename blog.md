@@ -32,7 +32,7 @@ Personally, I am more interested in content than in form. So if you take my gith
 Your blog should 
 - approximately/on average has one entry/page per week (10 in total should suffice);
 - be organised by time or topic;
-- start at the beginning (for example, on what hardware/operating system are you working, how did you install Haskell, ...);
+- start at the beginning (for example, on what hardware/operating system are you working, how did you install Haskell, ... but what is the right beginning for you depends on what you have to say overall);
 - contain you own examples, observations;
 - interleave narrative with code;
 - make clear how a reader can execute the code examples;
