@@ -29,6 +29,8 @@ Many thanks to all with whom I had the opportunity to discuss the contents of th
 
 These links should go somewhere else in the end but I keep them here for now ...
 
+[Notes on Programming Paradigms](https://tgdwyer.github.io/) A course that shares many aims and methods with this one. I just browsed over the content, but it looks promising ... recommended if you want to have a different point of view on the same topic.
+
 [Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
 
 [Compiling Lisp to JavaScript From Scratch in 350 LOC](https://gilmi.xyz/blog/post/2016/10/14/lisp-to-js) 
