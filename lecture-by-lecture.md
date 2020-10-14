@@ -47,7 +47,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 
 - 6.1 and 2: Abstract Reduction Systems: [Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v) and [Confluence and Normal Forms](https://hackmd.io/@alexhkurz/r1hRZaG8v)    
 - 7.1 and 2: ARS: [Termination](https://hackmd.io/@alexhkurz/BJoZF44Iw) and [Invariants](https://hackmd.io/@alexhkurz/BkMoUhXvD)
-
+- [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw)
 
 #### Assignment 2: Creating our own Functional Programming Language (1 week)
 
