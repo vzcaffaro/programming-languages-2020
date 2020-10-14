@@ -55,7 +55,7 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
 - Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better.
 - Benchmark the same algorithms in Python and Haskell. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run.
 - Explain how to use docker to setup Haskell and bnfc.
-- Add Booleans, comparisons, if-then-else to the calculator.
+- I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try.
 - Haskell and $\lambda$-calculus: Write the same program in both languages and compare.
 - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
 - ... let me know if you have your own ideas ... the blog is a space where you can be creative ...
