@@ -46,7 +46,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 #### Termrewriting as a Model of Computation (2 weeks, examinable)
 
 - 6.1 and 2: Abstract Reduction Systems: [Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v) and [Confluence and Normal Forms](https://hackmd.io/@alexhkurz/r1hRZaG8v)    
-- 7.1 and 2: ARS: [Termination](https://hackmd.io/@alexhkurz/BJoZF44Iw) and [Finitely Branching ARSs](https://hackmd.io/@alexhkurz/rkX-t-HdH)     
+- 7.1 and 2: ARS: [Termination](https://hackmd.io/@alexhkurz/BJoZF44Iw) and [Invariants](https://hackmd.io/@alexhkurz/BkMoUhXvD)
 
 
 #### Assignment 2: Creating our own Functional Programming Language (1 week)
@@ -56,8 +56,8 @@ Lab on Building interpreters for the LambdaNat family ... [notes](https://github
 
 #### Logic and Reasoning (2 weeks)
 
+- [Finitely Branching ARSs](https://hackmd.io/@alexhkurz/rkX-t-HdH)     
 - Rules of Logic
-- Invariants
 - Normalisation by Evaluation
 
 #### Program Verification (2 weeks, examinable)

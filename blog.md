@@ -33,6 +33,7 @@ Your blog should
 - approximately/on average has one entry/page per week (10 in total should suffice);
 - be organised by time or topic;
 - start at the beginning (for example, on what hardware/operating system are you working, how did you install Haskell, ... but what is the right beginning for you depends on what you have to say overall);
+- make sense to readers who do not take this course;
 - contain you own examples, observations;
 - interleave narrative with code;
 - make clear how a reader can execute the code examples;
