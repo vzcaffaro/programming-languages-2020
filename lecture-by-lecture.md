@@ -5,7 +5,7 @@
 
 ## Quick Links
 
-[Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](BNFC-installation.md) ... 
+[Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](BNFC-installation.md) ... [Haskell projects](haskell-projects.md)
 
 ## Lecture by Lecture
 
