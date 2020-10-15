@@ -49,6 +49,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 - 7.1 and 2: ARS: [Termination](https://hackmd.io/@alexhkurz/BJoZF44Iw) and [Invariants](https://hackmd.io/@alexhkurz/BkMoUhXvD)
 - [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw)
 
+
 #### Assignment 2: Creating our own Functional Programming Language (1 week)
 
 Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
