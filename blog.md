@@ -58,5 +58,6 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
 - I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try.
 - Haskell and $\lambda$-calculus: Write the same program in both languages and compare.
 - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
+- Haskell is lazy, which is interesting for programming with infinite data structures such as streams.
 - ... let me know if you have your own ideas ... the blog is a space where you can be creative ...
 - ...

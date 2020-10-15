@@ -29,6 +29,8 @@ Many thanks to all with whom I had the opportunity to discuss the contents of th
 
 These links should go somewhere else in the end but I keep them here for now ...
 
+[Multi-Paradigm Languages: Example Julia](https://arstechnica.com/science/2020/10/the-unreasonable-effectiveness-of-the-julia-programming-language/). Another example is Scala and this [list](https://data-flair.training/blogs/why-scala/) has many items that will be familiar from Haskell after the end of this course.
+
 [Notes on Programming Paradigms](https://tgdwyer.github.io/) A course that shares many aims and methods with this one. I just browsed over the content, but it looks promising ... recommended if you want to have a different point of view on the same topic.
 
 [Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
