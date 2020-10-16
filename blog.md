@@ -59,6 +59,6 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
 - Haskell and $\lambda$-calculus: Write the same program in both languages and compare.
 - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
 - Haskell is lazy, which is interesting for programming with infinite data structures such as streams.
-- Haskell is close to what one calls "pure functional programming" but there are also mult-paradigm languages such as OCaml and, more recently, Scala and Julia. Pick Julia or Scala and write some blogs about how they integrate FP and OO. What are the benefits (apart from just having both FP and OO)?
+- Haskell is close to what one calls "pure functional programming" but there are also mult-paradigm languages such as OCaml and, more recently, Scala and Julia. You can pick Julia or Scala and write one or more blogs about how they integrate FP and OO. What are the benefits (apart from just having both FP and OO)?
 - ... let me know if you have your own ideas ... the blog is a space where you can be creative ...
 - ...

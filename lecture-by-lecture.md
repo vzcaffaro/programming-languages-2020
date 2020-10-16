@@ -43,10 +43,11 @@
 
 Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks = 5 entries) until **Mon, Oct 12**. You will receice up to 2.5 points "on completion" (no grading for content yet), so you will have more time to flesh this out and polish it.
 
-#### Termrewriting as a Model of Computation (2 weeks, examinable)
+#### Rewriting as a Model of Computation (2 weeks, examinable)
 
 - 6.1 and 2: Abstract Reduction Systems: [Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v) and [Confluence and Normal Forms](https://hackmd.io/@alexhkurz/r1hRZaG8v)    
 - 7.1 and 2: ARS: [Termination](https://hackmd.io/@alexhkurz/BJoZF44Iw) and [Invariants](https://hackmd.io/@alexhkurz/BkMoUhXvD)
+- [Discrete Mathematics: Relations](https://hackmd.io/@alexhkurz/SJ1cc-dDr)
 - [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw)
 
 
