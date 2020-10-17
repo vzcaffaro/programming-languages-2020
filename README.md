@@ -43,13 +43,13 @@ I list some books that stood the test of time and are less technical and of wide
 
 While Wikipedia is a good place to gain a first impression of a new topic, a great starting point for scholarly explorations are the articles in the SEP. I link some that are useful to locate the current course in the wider landscape. The articles can get quite technial but even just reading the introductions will broaden horizons.
 
-- [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)
+- [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)  
 - [Dedekind](https://plato.stanford.edu/entries/dedekind-foundations/) and [The Early Development of Set Theory](https://plato.stanford.edu/entries/settheory-early/)
 - [Russell's Paradox](https://plato.stanford.edu/entries/russell-paradox/) and [Self-Reference](https://plato.stanford.edu/entries/self-reference/)
 - [Hilbert's Program](https://plato.stanford.edu/entries/hilbert-program/) and [The Development of Proof Theory](https://plato.stanford.edu/entries/proof-theory-development/)
 - [Alan Turing](https://plato.stanford.edu/entries/turing/) and [Turing Machines](https://plato.stanford.edu/entries/turing-machine/)
 - [The Lambda Calculus](https://plato.stanford.edu/entries/lambda-calculus/) and [The Church-Turing Thesis](https://plato.stanford.edu/entries/church-turing/)
-- [Kurt Gödel](https://plato.stanford.edu/entries/goedel/) and [Recursive Functions](https://plato.stanford.edu/entries/recursive-functions/)
+- [Recursive Functions](https://plato.stanford.edu/entries/recursive-functions/) and [Kurt Gödel](https://plato.stanford.edu/entries/goedel/) and [Incompleteness Theorems](https://plato.stanford.edu/entries/goedel-incompleteness/)
 - [Combinatory Logic](https://plato.stanford.edu/entries/logic-combinatory/) and [Computability and Complexity](https://plato.stanford.edu/entries/computability/)
 - [Church's Type Theory](https://plato.stanford.edu/entries/type-theory-church/) and [Type Theory](https://plato.stanford.edu/entries/type-theory/)
 - [Paradoxes and Contemporary Logic](https://plato.stanford.edu/entries/paradoxes-contemporary-logic/)
