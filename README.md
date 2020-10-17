@@ -25,30 +25,55 @@ I am also grateful to my friends and colleagues from the [Midlands Graduate Scho
 
 Many thanks to all with whom I had the opportunity to discuss the contents of the course, including (but not limited to) Roy Crole,  Peter Jipsen, Drew Moshier, Paula Severi, and Fer-Jan de Vries; to the students of 2018 and 19 for continuing challenge and feedback; to all the colleagues from whom I have been learning over the years.
 
-## The best books on "Programming Languages"
+## "Must Reads"
 
-I list some books that stood the test of time and are less technical and of wider interest.
-
+I list some books that stood the test of time and are less technical and of wider interest, more foundational than practical. Not required reading, but great background if you like to read widely.
 
 - Hofstadter: [Goedel, Escher, Bach](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach). A wide ranging book bringing together history, art, music and computer science. Contains a lot of rewriting and computability theory. The reader ends up with a proof of Goedel's incompleteness theorem, without going through a technical and advanced course of logic.
 
 - Smullyan: [To Mock a Mockingbird](https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird). Presents a deep but playful account of combinatory logic and the lambda-calculus.
 
-- Petzold: [The annotated Turing](https://en.wikipedia.org/wiki/The_Annotated_Turing). Goes through Turing's famous paper line by line. Can be read from a technical point of view, but one can also browse it lightly and pick out the anecdotes.
+- Petzold: [The Annotated Turing](https://en.wikipedia.org/wiki/The_Annotated_Turing). Goes through Turing's famous paper line by line. Can be read from a technical point of view, but one can also browse it lightly and pick out the anecdotes.
 
-... I am happy to add your favourites here if you let me know ...
+- Doxiadis, Papadimitriou: [Logicomix](https://en.wikipedia.org/wiki/Logicomix). This graphical novel about the life of Bertrand Russell introduces many of the main players in the history of logic and computing in the early 19 hundreds. Co-authored by one of the most influential contemporary theoretical computer scientists.
+
+... I'd be curious to learn about your favourites ...
+
+## Stanford Encyclopedia of Philosophy
+
+While Wikipedia is a good place to gain a first impression of a new topic, a great starting point for scholarly explorations are the articles in the SEP. I link some that are useful to locate the current course in the wider landscape. The articles can get quite technial but even just reading the introductions will broaden horizons.
+
+- [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)
+- [Dedekind](https://plato.stanford.edu/entries/dedekind-foundations/) and [The Early Development of Set Theory](https://plato.stanford.edu/entries/settheory-early/)
+- [Russell's Paradox](https://plato.stanford.edu/entries/russell-paradox/) and [Self-Reference](https://plato.stanford.edu/entries/self-reference/)
+- [Hilbert's Program](https://plato.stanford.edu/entries/hilbert-program/) and [The Development of Proof Theory](https://plato.stanford.edu/entries/proof-theory-development/)
+- [Alan Turing](https://plato.stanford.edu/entries/turing/) and [Turing Machines](https://plato.stanford.edu/entries/turing-machine/)
+- [The Lambda Calculus](https://plato.stanford.edu/entries/lambda-calculus/) and [The Church-Turing Thesis](https://plato.stanford.edu/entries/church-turing/)
+- [Kurt Gödel](https://plato.stanford.edu/entries/goedel/) and [Recursive Functions](https://plato.stanford.edu/entries/recursive-functions/)
+- [Combinatory Logic](https://plato.stanford.edu/entries/logic-combinatory/) and [Computability and Complexity](https://plato.stanford.edu/entries/computability/)
+- [Church's Type Theory](https://plato.stanford.edu/entries/type-theory-church/) and [Type Theory](https://plato.stanford.edu/entries/type-theory/)
+- [Paradoxes and Contemporary Logic](https://plato.stanford.edu/entries/paradoxes-contemporary-logic/)
+- [Logic and Artificial Intelligence](https://plato.stanford.edu/entries/logic-ai/) and [Automated Reasoning](https://plato.stanford.edu/entries/reasoning-automated/)
+- [Computational Linguistics](https://plato.stanford.edu/entries/computational-linguistics/)  and [Typelogical Grammar](https://plato.stanford.edu/entries/typelogical-grammar/)
+- [Propositional Dynamic Logic](https://plato.stanford.edu/entries/logic-dynamic/) and [Temporal Logic](https://plato.stanford.edu/entries/logic-temporal/)
+- [Proof Theory](https://plato.stanford.edu/entries/proof-theory/) and [Proof-Theoretic Semantics](https://plato.stanford.edu/entries/proof-theoretic-semantics/)
+- [The Hole Argument](https://plato.stanford.edu/entries/spacetime-holearg/#PreInv) and [Symmetry and Symmetry Breaking](https://plato.stanford.edu/entries/symmetry-breaking/)
+
+Get in touch if you want to hear more about how these articles are related to this course.
 
 ## Some links
 
-These links should go somewhere else in the end but I keep them here for now ...
+These links are somewhat random and should go somewhere else in the end but I keep them here for now ...
 
-[Multi-Paradigm Languages: Example Julia](https://arstechnica.com/science/2020/10/the-unreasonable-effectiveness-of-the-julia-programming-language/). Another example is Scala and this [list](https://data-flair.training/blogs/why-scala/) has many items that will be familiar from Haskell after the end of this course.
+- [Lego Turing Machine](https://vimeo.com/44202270)
 
-[Notes on Programming Paradigms](https://tgdwyer.github.io/) A course that shares many aims and methods with this one. I just browsed over the content, but it looks promising ... recommended if you want to have a different point of view on the same topic.
+- [Multi-Paradigm Languages: Example Julia](https://arstechnica.com/science/2020/10/the-unreasonable-effectiveness-of-the-julia-programming-language/). Another example of a multi-paradigm langauge is Scala and this [list](https://data-flair.training/blogs/why-scala/) has many items that will be familiar from Haskell after the end of this course.
 
-[Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
+- [Notes on Programming Paradigms](https://tgdwyer.github.io/) A course that shares many aims and methods with this one. I just browsed over the content, but it looks promising ... recommended if you want to have a different point of view on the same topic.
 
-[Compiling Lisp to JavaScript From Scratch in 350 LOC](https://gilmi.xyz/blog/post/2016/10/14/lisp-to-js) 
+- [Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
 
-[Bjarne Stroustrup - The Essence of C++](https://www.youtube.com/watch?v=86xWVb4XIyE&feature=emb_rel_err)
+- [Compiling Lisp to JavaScript From Scratch in 350 LOC](https://gilmi.xyz/blog/post/2016/10/14/lisp-to-js) 
+
+- [Bjarne Stroustrup - The Essence of C++](https://www.youtube.com/watch?v=86xWVb4XIyE&feature=emb_rel_err)
 
