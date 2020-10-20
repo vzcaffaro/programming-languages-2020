@@ -53,7 +53,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 
 #### Midterm Nov 3 in class
 
-Studyguide: Homework, Exercises (SR1-3), (T1-3), [Practice Test TBA]().
+Studyguide: Homework, Exercises (SR1-3), (T1-3), [Practice Test TBA](exams/midterm-practice-test.pdf).
 
 ---
 
