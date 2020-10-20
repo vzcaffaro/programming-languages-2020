@@ -33,10 +33,10 @@ Your blog should
 - approximately/on average has one entry/page per week (10 in total should suffice);
 - be organised by time or topic;
 - start at the beginning (for example, on what hardware/operating system are you working, how did you install Haskell, ... but what is the right beginning for you depends on what you have to say overall);
-- make sense to readers who do not take this course;
-- contain you own examples, observations;
-- interleave narrative with code;
-- make clear how a reader can execute the code examples;
+- make sense to readers who do not take this course ... don't talk from student to professor but rather from professional to professional;
+- make you own examples, observations;
+- interleave narrative with code (all code must be tested and run, make sure the reader knows how to run your code);
+- finish each blog with list of references and recommendations for further reading;
 - ...
 
 ***I don't want to limit your creativity, so let me know if you have your own ideas.***
@@ -59,6 +59,9 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
 - Haskell and $\lambda$-calculus: Write the same program in both languages and compare.
 - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
 - Haskell is lazy, which is interesting for programming with infinite data structures such as streams.
-- Haskell is close to what one calls "pure functional programming" but there are also mult-paradigm languages such as OCaml and, more recently, Scala and Julia. You can pick Julia or Scala and write one or more blogs about how they integrate FP and OO. What are the benefits (apart from just having both FP and OO)?
+- Multi-paradigm languages:
+  - Haskell is close to what one calls "pure functional programming" but there are also multi-paradigm languages such as OCaml and, more recently, Scala and Julia. You can pick Julia or Scala and write one or more blogs about how they integrate FP and OO. What are the benefits (apart from just having both FP and OO)?
+  - In case you have an interest in logic programming (eg PROLOG), there is some interesting literature on building multi-paradigm languages that combine functional and logic programming. 
+
 - ... let me know if you have your own ideas ... the blog is a space where you can be creative ...
 - ...
