@@ -2,7 +2,6 @@
 
 We talked about how it is important in research to simplify a problem in the right way; we learned some basic ideas: computation as rewriting to normal form; now let us make things more complicated again and see how far we can go ... there are many ways to do this: negative numbers, binary numbers (or decimals), exponentiation, square roots, calculus, if-then-else, loops and recursion, etc  ... but we will look at something else first, namely how to go from numbers to algebra, or from primary school to secondary school.
 
-
 How far did we go in our quick tour of school mathematics? Roughly primary school, computing with numbers. 
 
 Algebra induces a radical new big idea: instead of thinking of variables as place holders for terms/numbers: variables as "first class citizens".
@@ -13,19 +12,23 @@ If we write
 
     x+y = y+x
 
-the variables are merely **place-holders**. We want to express the commutativity of `+` for all numbers. This equation is just a convenient way stating infinitely many equations of the form
+the variables are merely **place-holders**. We want to express the commutativity of `+` for all numbers. The equation then is just a convenient way of stating infinitely many equations of the form
 
     1+2 = 2+1
 
-at the same time. 
+at the same time. `x,y` are mere place-holders that can be replaced by any numbers to yield a valid equation.
 
 But now let us play the following game. I think of a number. Then I add 4, multiply by 3, subtract the number and take the square root and get 4. What is the number?
 
-The solution is easy to find using some algebra. We first translate the question into a formula
+The solution is easy to find using algebra. We first translate the question into a formula
 
     ((x+4)*3-x)^{1/2} = 4
 
-and then solve for `x`. To do this we need to have rules of computation that contain variables as "first-class citizens", not only numbers.
+and then solve for `x`. To do this we need to have rules of computation that contain variables as "first-class citizens", not only numbers. We need now equations such as
+
+    x+y = y+x
+
+as equations between terms that do actually contain variables. That is the precise point where one has to leave primary school maths and start with high-school algebra.
 
 ## A brief look at the history
 
