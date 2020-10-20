@@ -47,11 +47,11 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 
 - 6.1 and 2: Abstract Reduction Systems: [Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v) and [Confluence and Normal Forms](https://hackmd.io/@alexhkurz/r1hRZaG8v)    
 - 7.1 and 2: ARS: [Termination](https://hackmd.io/@alexhkurz/BJoZF44Iw) and [Invariants](https://hackmd.io/@alexhkurz/BkMoUhXvD)
-- 8.1
+- 8.1: Review Session on Relations, Termination, Invariants, ... 
 - [Discrete Mathematics: Relations](https://hackmd.io/@alexhkurz/SJ1cc-dDr)
 - [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw)
 
-#### Midterm Oct 29 in class
+#### Midterm Nov 3 in class
 
 Studyguide: Homework, Exercises (SR1-3), (T1-3), [Practice Test TBA]().
 
