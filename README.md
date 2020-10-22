@@ -41,12 +41,13 @@ I list some books that stood the test of time and are less technical and of wide
 
 ## Stanford Encyclopedia of Philosophy
 
-While Wikipedia is a good place to gain a first impression of a new topic, a great starting point for scholarly explorations are the articles in the SEP. I link some that are useful to locate the current course in the wider landscape. The articles can get quite technial but even just reading the introductions will broaden horizons.
+While Wikipedia is a good place to gain a first impression of a new topic, a great starting point for scholarly explorations are the articles in the SEP. I link some that are useful to locate the current course in the wider landscape of mathematics, logic, philosophy, computation, history. The articles can get quite technial but even just reading the introductions will broaden horizons.
 
 - [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)  
 - [Dedekind](https://plato.stanford.edu/entries/dedekind-foundations/) and [The Early Development of Set Theory](https://plato.stanford.edu/entries/settheory-early/)
 - [Russell's Paradox](https://plato.stanford.edu/entries/russell-paradox/) and [Self-Reference](https://plato.stanford.edu/entries/self-reference/)
 - [Hilbert's Program](https://plato.stanford.edu/entries/hilbert-program/) and [The Development of Proof Theory](https://plato.stanford.edu/entries/proof-theory-development/)
+- [Brouwer](https://plato.stanford.edu/entries/brouwer/) and [Constructive Mathematics](https://plato.stanford.edu/entries/mathematics-constructive/)
 - [Alan Turing](https://plato.stanford.edu/entries/turing/) and [Turing Machines](https://plato.stanford.edu/entries/turing-machine/)
 - [The Lambda Calculus](https://plato.stanford.edu/entries/lambda-calculus/) and [The Church-Turing Thesis](https://plato.stanford.edu/entries/church-turing/)
 - [Recursive Functions](https://plato.stanford.edu/entries/recursive-functions/) and [Kurt Gödel](https://plato.stanford.edu/entries/goedel/) and [Incompleteness Theorems](https://plato.stanford.edu/entries/goedel-incompleteness/)
@@ -65,9 +66,12 @@ Get in touch if you want to hear more about how these articles are related to th
 
 These links are somewhat random and should go somewhere else in the end but I keep them here for now ...
 
+- [Hoare's 1980 Turing Award Lecture](https://dl.acm.org/doi/pdf/10.1145/1283920.1283936) has a lot of interesting anecdotes about Quicksort, Algol, the switch statement, early compilers, operating systems, Hoare logic. Also some valuable general lessons about software engineering. I collected some of my [favourite quotes](hoare-1980-quotes.md).
+
+
 - [Lego Turing Machine](https://vimeo.com/44202270)
 
-- [Multi-Paradigm Languages: Example Julia](https://arstechnica.com/science/2020/10/the-unreasonable-effectiveness-of-the-julia-programming-language/). Another example of a multi-paradigm langauge is Scala and this [list](https://data-flair.training/blogs/why-scala/) has many items that will be familiar from Haskell after the end of this course.
+- [Multi-Paradigm Languages: Example Julia](https://arstechnica.com/science/2020/10/the-unreasonable-effectiveness-of-the-julia-programming-language/). Another example of a multi-paradigm langauge is [Scala](https://data-flair.training/blogs/why-scala/), which is OO but also has many features familiar from Haskell.
 
 - [Notes on Programming Paradigms](https://tgdwyer.github.io/) A course that shares many aims and methods with this one. I just browsed over the content, but it looks promising ... recommended if you want to have a different point of view on the same topic.
 

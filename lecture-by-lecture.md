@@ -43,11 +43,12 @@
 
 Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks = 5 entries) until **Mon, Oct 12**. You will receice up to 2.5 points "on completion" (no grading for content yet), so you will have more time to flesh this out and polish it.
 
-#### Rewriting as a Model of Computation (2 weeks, examinable)
+#### Rewriting as a Model of Computation (3 weeks, examinable)
 
 - 6.1 and 2: Abstract Reduction Systems: [Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v) and [Confluence and Normal Forms](https://hackmd.io/@alexhkurz/r1hRZaG8v)    
 - 7.1 and 2: ARS: [Termination](https://hackmd.io/@alexhkurz/BJoZF44Iw) and [Invariants](https://hackmd.io/@alexhkurz/BkMoUhXvD)
 - 8.1: Review Session on Relations, Termination, Invariants. 
+- 8.2: Morning: [Notes from the review lecture](). Afternoon: [Finitely Branching ARSs](https://hackmd.io/@alexhkurz/rkX-t-HdH), [Notes]().
 - [Discrete Mathematics: Relations](https://hackmd.io/@alexhkurz/SJ1cc-dDr)
 - [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw)
 
@@ -66,7 +67,7 @@ Lab on Building interpreters for the LambdaNat family ... [notes](https://github
 
 #### Logic and Reasoning (2 weeks)
 
-- [Finitely Branching ARSs](https://hackmd.io/@alexhkurz/rkX-t-HdH)     
+
 - Rules of Logic
 - Normalisation by Evaluation
 
