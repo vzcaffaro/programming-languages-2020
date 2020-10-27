@@ -31,7 +31,7 @@ If you cannot download or build [bnfc as described here](https://github.com/alex
 
 - To **parse a program** run, for example,
 
-    echo "\x.x y z" | ./TestLambdaNat
+        echo "\x.x y z" | ./TestLambdaNat
     
 *Exercise:* Write your own lamda calculus programs and parse them.
     
