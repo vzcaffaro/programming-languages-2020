@@ -12,12 +12,9 @@ The untyped lambda calculus is a very small programming language an we want to e
 
 Requirements: git, Haskell, bnfc
 
-To set up your computer, clone [this directory](https://github.com/alexhkurz/programming-languages-2020/). I do this from the command line by running in my home directory
-
-    git clone https://github.com/alexhkurz/programming-languages-2019.git
+To set up your computer, fork [this directory](https://github.com/alexhkurz/programming-languages-2020/). 
     
-You now have a folder `programming-languages-2019/Lab1-Lambda-Calculus/LambdaNat0/
-`. This is the base folder to follow the instructions in this section.
+You now have a repo `programming-languages-2020/`. This is the base folder to follow the instructions in this section.
 
 ### How to Generate a Parser
 
