@@ -54,11 +54,12 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
 - General remark: In did have quite a number of interesting discussions with students, on the discussion forum or via email, about curious observations concerning Haskell, bnfc and the like ... typically these observations would also make interesting points for the blog.
 - Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better.
 - Benchmark the same algorithms in Python and Haskell. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run.
-- Explain how to use docker to setup Haskell and bnfc.
+- Explain how to use docker to setup Haskell and bnfc. Make a dockerfile that we could use to run Haskell, bnfc and the assignments.
 - I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try.
 - Haskell and $\lambda$-calculus: Write the same program in both languages and compare.
 - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
 - Haskell is lazy, which is interesting for programming with infinite data structures such as streams.
+- Do some of the [exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw) labelled "Optional (but interesting)". (Essential exercises are not suitable for the blog.)
 - Multi-paradigm languages:
   - Haskell is close to what one calls "pure functional programming" but there are also multi-paradigm languages such as OCaml and, more recently, Scala and Julia. You can pick Julia or Scala and write one or more blogs about how they integrate FP and OO. What are the benefits (apart from just having both FP and OO)?
   - In case you have an interest in logic programming (eg PROLOG), there is some interesting literature on building multi-paradigm languages that combine functional and logic programming. 

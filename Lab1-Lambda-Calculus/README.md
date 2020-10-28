@@ -98,6 +98,10 @@ These functions are disappointingly simple and would not make one think that all
 
 For now, instead of encoding numbers, conditionals, and recursion in the pure lambda calculus, we will go into a different direction. We will add features to the basic language until we have enough to compute some reasonably interesting examples.
 
+## Homework
+
+Run through all the steps above. Make sure that you have a working parser and interpreter for Thursday as we are going to build on this during the lecture.
+
 
 ## The Work Cycle: Build a New Language
 
