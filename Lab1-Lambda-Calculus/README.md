@@ -105,9 +105,7 @@ Run through all the steps above. Make sure that you have a working parser and in
 
 ## The Work Cycle: Build a New Language
 
-The Work Cycle that was used to produce all the different programming languages in this directory was as follows. 
-
-(If you find this boring, feel free to jump to the next section and come back here for reference as needed.)
+The Work Cycle that is used to add features to, say, `LambdaNat0` is the following. **I highlighted in bold** the two steps that require actual work, the others steps are just for organisation and bookkeeping. 
 
 Here we assume that we have `LambdaNatOLD` and want to build a new language called `LambdaNatNEW`. (First time you come here "OLD" is "0" and "NEW" is "1".)
 
@@ -119,7 +117,7 @@ Here we assume that we have `LambdaNatOLD` and want to build a new language call
 
    - (This step is only needed if you want to make your own grammar. In the exercises for this lab, the new grammars are already given.)
 
-3) Change `LambdaNatNEW.cf` according to what you want to achieve. 
+3) **Change the grammar `LambdaNatNEW.cf` and add new features to the syntax of your programming language.**
 
 4) To build the parser:
 
@@ -134,7 +132,7 @@ Here we assume that we have `LambdaNatOLD` and want to build a new language call
   a) Run `cp grammar/*.hs src`. (Do a `mkdir src` before if necessary.) This copies the Haskell-files produced by bnfc into the `src` folder that will contain the new interpreter. 
   b) Copy the old interpreter  in `../LambdaNatOLD/src/Interpreter.hs` to `src/Interpreter.hs`. 
 
-7) Study how the interpreter `Interpreter.hs` uses the constructors of `AbsLambdaNat.hs` in order to evaluate the abstract syntax trees. Modify the old interpreter so that it can evaluate the new constructors of the new `AbsLambdaNat.hs` (this can take a while and is the item that may require the largest amount of work).
+7) Study how the interpreter `Interpreter.hs` uses the constructors of `AbsLambdaNat.hs` in order to evaluate the abstract syntax trees. **Modify the interpreter so that it can evaluate the newly added syntax of your programming language**, as defined in the new grammar (and, therefore, the new `AbsLambdaNat.hs`). This step (together with steps 8 and 9) may require the largest amount of work.
 
 8) Run `stack build`. Debug the interpreter if it does not compile. 
 
@@ -142,6 +140,5 @@ Here we assume that we have `LambdaNatOLD` and want to build a new language call
 `stack exec LambdaNat-exe test/test.lc`
 If not all tests run according to what you expect go back to 6).
 
-10) Release your new programming language.
+10) Let me know about your new programming language. 
 
-**Remark:** In the exercises below, **Steps 1-4a** have already been taken care of for you. But I would encourage you to also play around with your own grammars.
