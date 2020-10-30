@@ -4,9 +4,9 @@ This assignment is worth 9% of the total grade.
 
 It comes in several parts.
 
-Deadlines: 
+#### Deadlines: 
 
-- Part 1: Nov 4.
+- Part 1: **Nov 4**.
 
 Let me know if there are any questions ... I list some resources that may be helpful:
 
@@ -24,6 +24,8 @@ Each group submits their answer by sending me a link to a github repository via 
 **Use the same private github repository as for Assignment 1. If you think that this is not possible/appropriate get in touch.**
 
 ## Part 1
+
+(counts for 1 point out of 9 ... if you followed and implemented what we discussed in lecture/lab 9.2, I estimate that this should not take you more than one hour of work ... let me know if that is not the case)
 
 Your repository needs to contain a folder `Assignment-2-1` which must be identical which the one [here](https://github.com/alexhkurz/programming-languages-2020/tree/master/Assignment-2-1), with the exeption of the following:
 
