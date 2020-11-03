@@ -60,7 +60,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 #### Assignment 2
 - [Assignment 2, Part 1](assignment-2.md)
 
-#### Midterm Nov 3 in class
+#### Midterm Nov 3 in class 
 
 - Studyguide: Homework (from weeks 5-7), [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw) (SR1-3), (T1-3), [Practice Test](exams/midterm-practice-test.pdf), some tips on [how (not) to answer questions](https://hackmd.io/@alexhkurz/HktZpo2DP). Solutions have been presented during office hours on Nov 2, see the recording. I also link the [handwritten notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/resources/Office%20Hours%20Practice%20Test.pdf) from the office hours.
 
