@@ -42,7 +42,7 @@ Your repository needs to contain a folder `Assignment-2-1` which must be identic
     is legal syntax, given that the expressions `e1, ... e4` are.
 
 - In the interpreter
-    -  add a clause to the definition of `evalCBN` evaluating  if-then-else.
+    -  add a clause to the definition of `evalCBN` evaluating  if-then-else. [Hint: Use Haskell's native if-then-else to interpret your own if-then-else.]
 
     -  add a clause to the definition of `subst` that substitutes into `if e1 = e2 then e3 else e4` by substituting into the sub-terms `e1, ... e4`. 
 

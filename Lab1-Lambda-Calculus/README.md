@@ -129,7 +129,7 @@ Here we assume that we have `LambdaNatOLD` and want to build a new language call
    If not all tests run according to what you expect go back to 3).
 
 6) Now we need to copy the old interpreter and the new grammar into the folder of the new interpreter. `cd` into `LambdaNatNEW`.
-  a) Run `cp grammar/*.hs src`. (Do a `mkdir src` before if necessary.) This copies the Haskell-files produced by bnfc into the `src` folder that will contain the new interpreter. 
+  a) Copy the Haskell-files produced by bnfc to the `src` folder that will contain the new interpreter. (For example, run `cp grammar/*.hs src` and do a `mkdir src` before if necessary.)
   b) Copy the old interpreter  in `../LambdaNatOLD/src/Interpreter.hs` to `src/Interpreter.hs`. 
 
 7) Study how the interpreter `Interpreter.hs` uses the constructors of `AbsLambdaNat.hs` in order to evaluate the abstract syntax trees. **Modify the interpreter so that it can evaluate the newly added syntax of your programming language**, as defined in the new grammar (and, therefore, the new `AbsLambdaNat.hs`). This step (together with steps 8 and 9) may require the largest amount of work.
