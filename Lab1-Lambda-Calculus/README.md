@@ -107,7 +107,7 @@ Run through all the steps above. Make sure that you have a working parser and in
 
 The Work Cycle that is used to add features to, say, `LambdaNat0` is the following. **I highlighted in bold** the two steps that require actual work, the others steps are just for organisation and bookkeeping. 
 
-Here we assume that we have `LambdaNatOLD` and want to build a new language called `LambdaNatNEW`. (First time you come here "OLD" is "0" and "NEW" is "1".)
+Here we assume that we have `LambdaNatOLD` and want to build a new language called `LambdaNatNEW`. (First time you come here "OLD" is "0" and "NEW" is "1". "OLD" and "NEW" are place-holders for version numbers.)
 
 1) Copy the directory `LambdaNatOLD` and all its content to a new folder called `LambdaNatNEW`.
 
