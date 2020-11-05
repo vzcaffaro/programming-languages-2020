@@ -31,7 +31,7 @@ Your repository needs to contain a folder `Assignment-2-1` which must be identic
 
 - You can ignore `LambdaNat1`.
 
-- Start the [work cycle](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md#the-work-cycle-build-a-new-language) from `LambdaNat2` as `LambdaNatOld`.
+- Start the [work cycle](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md#the-work-cycle-build-a-new-language) with `LambdaNat2` as `LambdaNatOld`.
 
 - Create a directory `LambdaNat3` (`LambdaNatNew`) by adding `if-then-else` to the language.
 
