@@ -7,7 +7,7 @@
 
 [Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](BNFC-installation.md) ... [Haskell projects](haskell-projects.md)
 
-## Lecture by Lecture
+## Lecture by Lecture 
 
 #### Introduction: Functional Programming (4 weeks)
 
