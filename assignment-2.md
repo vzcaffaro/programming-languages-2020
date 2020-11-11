@@ -50,4 +50,24 @@ Your repository needs to contain a folder `Assignment-2-1` which must be identic
 
 ## Part 2
 
-... to be continued ...
+This is essentially the [homework from the Tuesday lecture](https://hackmd.io/Mt3etYA-QPe3vQGD-bBkLw?both#Homework). There are no points, but in case you will ask for an extension of the final deadline, I will make this dependent on whether you finished Part 2 by **Friday, Nov 13**.
+
+Your repository needs to contain a folder `Assignment-2-2` which must be identical which the one [here](https://github.com/alexhkurz/programming-languages-2020/tree/master/Assignment-2-1), with the exeption of the following:
+
+Add the following programs to `LambdaNat4/test`.
+
+- `addition.lc`
+- `multiplication.lc`
+- `factorial.lc`
+- `fibonacci.lc`
+
+These are all programs we have written before in Haskell, so that should not take you more than 1 hour. But if you can run and test these programs you should be ready to start Part 3 on Friday.
+
+## Part 3
+
+...
+
+
+
+
+
