@@ -66,7 +66,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 - 10.2 and 11.1: [Extensions of lambda-calculus](https://hackmd.io/@alexhkurz/rJEeYqZtw) ... video review on the [fixed point combinator](https://youtu.be/XvDOwbSh3xE).
 
 #### Assignment 2
-- [Assignment 2, Part 1](assignment-2.md)
+- [Assignment 2, Part 1, Part 2](assignment-2.md)
 
 ---
 

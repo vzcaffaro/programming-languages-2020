@@ -61,6 +61,8 @@ Add the following programs to `LambdaNat4/test`.
 - `factorial.lc`
 - `fibonacci.lc`
 
+Before writing these programs, I recommend to study the examples in [test.lc](https://github.com/alexhkurz/programming-languages-2020/blob/master/Assignment-2-2/LambdaNat4/test/test.lc).
+
 These are all programs we have written before in Haskell, so that should not take you more than 1 hour. But if you can run and test these programs you should be ready to start Part 3 on Friday.
 
 ## Part 3
