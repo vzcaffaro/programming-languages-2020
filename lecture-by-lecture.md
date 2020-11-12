@@ -66,28 +66,16 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 - 10.2 and 11.1: [Extensions of lambda-calculus](https://hackmd.io/@alexhkurz/rJEeYqZtw) ... video review on the [fixed point combinator](https://youtu.be/XvDOwbSh3xE).
 
 #### Assignment 2
+
 - [Assignment 2, Part 1, Part 2](assignment-2.md)
+
+#### Program Verification (1 week)
+
+- 11.2: [Hoare Logic](https://hackmd.io/Df57tnuCSGaW8wqqsl57FQ) 
 
 ---
 
 ## ... coming up ... 
-
-#### Assignment 2: Creating our own Functional Programming Language (1 week)
-
-Lab on Building interpreters for the LambdaNat family ... [notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md)
-
-
-#### Logic and Reasoning (2 weeks)
-
-
-- Rules of Logic
-- Normalisation by Evaluation
-
-#### Program Verification (2 weeks, examinable)
-
- - Induction and Equational Reasoning
- - Theorem Proving
- - Hoare Logic
 
 #### Imperative Programming (1 week)
 
@@ -101,3 +89,18 @@ Lab on Building interpreters for the LambdaNat family ... [notes](https://github
  - Structure Preserving Maps
  - Universal Properties
 
+## Bonus Lectures
+
+In previous years, this course was more theoretical and less focussed on Haskell. If you have feedback on this let me know. I put here some lectures from the previous years. If you find this interesting and want to know more get in touch. We may also move some of these lectures back into the main part, depending on time.
+
+
+#### More on Syntax and Semantics
+
+- [Syntax and Semantics](https://hackmd.io/r_6EY8pVR7OdijRAEFNKvg) and  [Meaning in Syntax](https://hackmd.io/khfFd9N2RRWau8o-1ACc_g) 
+
+#### Logic and Reasoning 
+
+- [Rules of logic](https://hackmd.io/xJ8NOiK4S5qnYvEI85bHig)
+- [Normalisation by Evaluation](https://hackmd.io/w9RLzXmcS86U4HVAQi5Lqg)
+- [Induction and Equational Reasoning](https://hackmd.io/02w2FuLsT_uKYQxkPSdvtw)
+- [Theorem Proving](https://hackmd.io/JrBBURefROGD1xMN44Zivw)

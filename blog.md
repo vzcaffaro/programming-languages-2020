@@ -25,6 +25,8 @@ Here are some things I would like to learn from you:
 - What are, in your opinion, the major stumbling blocks in learning Haskell?
 - Are there any projects you implemented in Haskell that go beyond what we do in class?
 
+**General Rule:** Do not repeat material that is already in my notes.  Explore on your own. If you write about material we have covered in the lectures, make your own examples and add your own angle. Do not post answers to homework and assignments.
+
 **Some Remarks**
 
 Personally, I am more interested in content than in form. So if you take my github repo for this course as a guideline this is fine. But I don't want to discourage more sophisticated design of a webpage. If you like to design a fancy webpage, that will gain you points as well.
