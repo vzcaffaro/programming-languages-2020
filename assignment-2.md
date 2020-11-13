@@ -80,7 +80,7 @@ This assignment divides into 2 further parts.
 
 (4 points)
 
-The [grammar for LambdaNat5]() adds to the grammar `LambdaNat4.cf` the following
+The [grammar for LambdaNat5](https://github.com/alexhkurz/programming-languages-2020/blob/master/Assignment-2-2/LambdaNat5/grammar/LambdaNat5.cf) adds to the grammar `LambdaNat4.cf` the following
 
     EHd.       Exp6 ::= "hd" Exp ;
     ETl.       Exp6 ::= "tl" Exp ;
@@ -110,6 +110,8 @@ Note that this does not specify what will happen if your computation reaches `hd
 
 
 **Exercise:** (not necessary to hand this in, but should help to see how to implement the two rules above in `Interpreter.hs`) Translate the computation rule `hd a:b:c:#   --->   a` from concrete syntax to abstract syntax. Also run `hd a:b:c:#` in the parser and compare.
+
+**Task:** Implement the computation rules for `EHd`, `ETl`, `ENil`, `ECons` by adding 4 cases to the definition of `evalCBN` in [`Interpreter.hs`](https://github.com/alexhkurz/programming-languages-2020/blob/master/Assignment-2-2/LambdaNat5/src/Interpreter.hs). There is no need to adapt the definition of `subst` due to some Haskell trickery.
 
 **Remark on the side:** Lists can also be nested in order to form trees as in 
 
