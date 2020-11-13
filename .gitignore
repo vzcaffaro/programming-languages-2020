@@ -6,7 +6,9 @@
 *.y
 Makefile
 */Local/*
-/Local/*
+Local/*
 */*tmp*/
+*tmp*
 *copy*
-*/.stack-work/*
+.stack-work/
+
