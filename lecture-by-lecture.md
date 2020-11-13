@@ -58,7 +58,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 - Studyguide: Homework (from weeks 5-7), [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw) (SR1-3), (T1-3), [Practice Test](exams/midterm-practice-test.pdf), some tips on [how (not) to answer questions](https://hackmd.io/@alexhkurz/HktZpo2DP). Solutions have been presented during office hours on Nov 2, see the recording. I also link the [handwritten notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/resources/Office%20Hours%20Practice%20Test.pdf) from the office hours.
 
 
-#### Working Towards Assignment 2
+#### Working Towards Assignment 2 (2 weeks)
 
 - 9.1: We worked through the first part of the [Notes](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md) up to the Homework section. Homework mandatory until Thursday (should take less than 30 min).
 - 9.2: We explained the [Work Cycle](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md) and extended lambda calculus with natural numbers (from `LambdaNat0` to `LambdaNat2`). Notes from the [morning lecture](https://github.com/alexhkurz/programming-languages-2020/blob/master/resources/morning%20lecture%20Oct%2029.pdf) and [office hours/afternoon lecture](https://github.com/alexhkurz/programming-languages-2020/blob/master/resources/Office-hours-afternoon-Lecture-Oct-29.pdf).
