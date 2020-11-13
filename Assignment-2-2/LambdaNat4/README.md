@@ -1,3 +1,3 @@
-For all questions go first to 
+# README
 
-    ../../Lab1-Lambda-Calculus/README.md  
+See the lectures for more information.
