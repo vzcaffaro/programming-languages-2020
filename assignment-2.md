@@ -56,12 +56,10 @@ Your repository needs to contain a folder `Assignment-2-2` which must be identic
 
 Add the following programs to `LambdaNat4/test`.
 
-- `addition.lc`
 - `multiplication.lc`
 - `factorial.lc`
-- `fibonacci.lc`
 
-Before writing these programs, I recommend to study the examples in [test.lc](https://github.com/alexhkurz/programming-languages-2020/blob/master/Assignment-2-2/LambdaNat4/test/test.lc).
+Before writing these programs, I recommend to study the examples in [test](https://github.com/alexhkurz/programming-languages-2020/blob/master/Assignment-2-2/LambdaNat4/test/).
 
 These are all programs we have written before in Haskell, so that should not take you more than 1 hour. If you can run and test these programs you should be ready to start Part 3 on Friday.
 
