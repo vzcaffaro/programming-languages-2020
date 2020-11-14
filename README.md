@@ -64,9 +64,11 @@ Get in touch if you want to hear more about how these articles are related to th
 
 ## Some links
 
-These links are somewhat random and should go somewhere else in the end but I keep them here for now ...
+These links are somewhat random and should go somewhere else in the end but I keep them here for now ... none of this is required reading, but all of it is part of the wider landscape in which this course is situated.
 
-- [Turing Incomplete Languages](http://neilmitchell.blogspot.com/2020/11/turing-incomplete-languages.html). This is blog illustrates a general topic: If you want a language that can express important ideas easily, you can also use it to express rubbish. If you want to limit language so that it becomes impossible to express rubbish, good ideas become also more difficult to express. And then, after a while, you notice that you can still write rubbish in the restricted language anyway. (Sam Griffin in the comments has a more nuanced view on this.) Btw, in this context one should recall Turing's theorem: Every language that allows us to express all terminating programs must necessarily allow us to write non-terminating programs. One thing one should add to the article (but see the comments), is that there are actually languages, known as type theories, with powerful recursion principle in which all programmable functions do terminate. But the larger point I made above remains.
+- Terence Tao: [Compactness and contradiction](https://terrytao.files.wordpress.com/2011/06/blog-book.pdf). Tao is one of the leading mathematicians of his generation. Nevertheless, much of this book is quite accessible and the first chapter on "Logic and foundations" touches on many topics that crop up in this course. Highly recommended to everybody with a taste for mathematics.
+
+- [Turing Incomplete Languages](http://neilmitchell.blogspot.com/2020/11/turing-incomplete-languages.html). This blog illustrates a general topic: If you want a language that can express important ideas easily, you can also use this language to express rubbish easily. If you want to limit language so that it becomes impossible to express rubbish, good ideas become also more difficult to express. And then, after a while, you notice that you can still write rubbish in the restricted language anyway. (Sam Griffin in the comments has a more nuanced view on this.) So you end up making the language expressive again (unless there is a specific technical reason not to do so, such as efficient automatization). Btw, in this context one should recall Turing's theorem: Every language that allows us to express all terminating programs must necessarily allow us to write non-terminating programs. One thing one should add to the article (but see the comments), is that there are actually languages, known as type theories, with powerful recursion principles in which all programmable functions do terminate. 
 
 - [Programming Languages and Machine Learning](https://blog.acolyer.org/2020/01/15/programmatically-interpretable-reinforcement-learning/)
 
@@ -75,7 +77,6 @@ These links are somewhat random and should go somewhere else in the end but I ke
 - Video: [Visualised Recursion](https://www.youtube.com/watch?v=OXo-uzzD4Js&feature=emb_logo) ... [Explanation](https://www.youtube.com/watch?v=gCciKhaK2v8)
 
 - [Hoare's 1980 Turing Award Lecture](https://dl.acm.org/doi/pdf/10.1145/1283920.1283936) has a lot of interesting anecdotes about Quicksort, Algol, the switch statement, early compilers, operating systems, Hoare logic. Also some valuable general lessons about software engineering. I collected some of my [favourite quotes](hoare-1980-quotes.md).
-
 - [Lego Turing Machine](https://vimeo.com/44202270)
 
 - [Multi-Paradigm Languages: Example Julia](https://arstechnica.com/science/2020/10/the-unreasonable-effectiveness-of-the-julia-programming-language/). Another example of a multi-paradigm langauge is [Scala](https://data-flair.training/blogs/why-scala/), which is OO but also has many features familiar from Haskell.

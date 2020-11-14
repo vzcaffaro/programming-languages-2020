@@ -18,8 +18,7 @@ ENatS.     Exp10 ::= "S" Exp10 ;
 
 EVar.      Exp11 ::= Id ;  
 
-internal   EFix.      Exp5 ::= "fix" Exp ;   
-
+internal   EFix.      Exp5 ::= "fix" Exp ;  -- only for abstract syntax
 
 coercions Exp 11 ;
 
