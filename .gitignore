@@ -11,4 +11,5 @@ Local/*
 *tmp*
 *copy*
 .stack-work/
+*.lock
 
