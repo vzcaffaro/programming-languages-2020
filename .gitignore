@@ -9,9 +9,5 @@ Makefile
 .stack-work/
 *.lock
 
-*/Local/*
-Local/*
-*/*tmp*/
-*tmp*
-*copy*
-
+Local
+*copy
