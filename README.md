@@ -15,7 +15,7 @@ This course has been developed by Alexander Kurz and Samuel Balco for the studen
 - [Assignments](assignments.md)
 - [Blog/Tutorial](blog.md)
 - [On the Use of Git](git-best-practices.md)
-
+- [Extra Credit](extra-credit.md)
 
 **Acknowledgements:**
 
@@ -24,6 +24,8 @@ The specific way we intertwine theory and practice may be original, but we build
 I am also grateful to my friends and colleagues from the [Midlands Graduate School in the Foundations of Computing Science](http://www.cs.nott.ac.uk/MGS/) who have influenced with their graduate level courses from 2002 onwards the choice of material. In fact, it is one of the aims of this course to provide at the undergraduate level the foundations that will equip interested students with the knowledge needed to study more advanced topics in programming languages. Many of the paragraphs labelled "Further Study'' are meant to provide bridges to such graduate level courses.
 
 Many thanks to all with whom I had the opportunity to discuss the contents of the course, including (but not limited to) Roy Crole,  Peter Jipsen, Drew Moshier, Paula Severi, and Fer-Jan de Vries; to the students of 2018 and 19 for continuing challenge and feedback; to all the colleagues from whom I have been learning over the years.
+
+<font color=grey>
 
 ## "Must Reads"
 
@@ -89,3 +91,4 @@ These links are somewhat random and should go somewhere else in the end but I ke
 
 - [Bjarne Stroustrup - The Essence of C++](https://www.youtube.com/watch?v=86xWVb4XIyE&feature=emb_rel_err)
 
+</font>
