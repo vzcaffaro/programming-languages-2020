@@ -196,6 +196,7 @@ To solve the exercises below, I recommended to first write down similar equation
     merge (0 : S S 0 : S S S S 0 : #) (S 0 : S S S 0 : #) 
     ---> 0 : S 0 : S S 0 : S S S 0 : S S S S 0 : #
 
+Hint: `merge` needs to use `le`.
 
 #### `mergeLists`
 
@@ -204,7 +205,9 @@ Provided with a list of ordered lists of numbers, `mergeLists` merges all these 
     mergeLists (makeLists (S S S S 0:S S S 0:S S 0:S 0: 0: #))
     ---> (0 : S 0 : S S 0 : S S S 0 : S S S S 0 : #) : #
 
-[Hint: The definition of `mergeLists` will include the definitions of the three other functions above.]
+Hints: 
+- The definition of `mergeLists` will include the definitions of the three other functions above.
+- Note that `makeLists` makes a list of lists, all of which are in ascending order (just because the all contain one and only one element).
 
 
 
