@@ -66,6 +66,8 @@ These are all programs we have written before in Haskell, so that should not tak
 
 ## Part 3
 
+Deadline: **Friday, Nov 20**.
+
 The purpose of the assignment is to build a simple programming language that has function definitions, function application, numbers, conditionals, recursion and lists.
 
 The assignment continues from `LambdaNat4`, which is our programming language that has function definitions, function application, numbers, conditionals, and recursion. I already started the work cycle by providing you with the grammar for `LambdaNat5`.
