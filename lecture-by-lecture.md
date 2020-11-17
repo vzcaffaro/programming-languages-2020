@@ -67,7 +67,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 
 #### Assignment 2
 
-- [Assignment 2, Part 1, Part 2](assignment-2.md)
+- [Assignment 2, Part 1-3](assignment-2.md)
 
 #### Program Verification (1 week)
 
