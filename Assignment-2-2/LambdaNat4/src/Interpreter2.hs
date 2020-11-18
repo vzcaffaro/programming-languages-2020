@@ -23,7 +23,7 @@ evalCBN (ERec i e1 e2) = evalCBN (EApp (EAbs i e2) (EFix (EAbs i e1)))
 evalCBN (EFix e) = evalCBN (EApp e (EFix e)) 
 evalCBN (EMinusOne e) = case (evalCBN e) of
     ENat0 -> ENat0
-    (ENatS e) -> e
+    (ENatS e) -> evalCBN e
 evalCBN (ENatS e') = ENatS (evalCBN e')
 evalCBN x = x
 

@@ -66,6 +66,8 @@ These are all programs we have written before in Haskell, so that should not tak
 
 ## Part 3
 
+(search for "Task" if you want to shortcut the explanations below)
+
 Deadline: **Friday, Nov 20**.
 
 The purpose of the assignment is to build a simple programming language that has function definitions, function application, numbers, conditionals, recursion and lists.
@@ -110,6 +112,7 @@ Note that this does not specify what will happen if your computation reaches `hd
 - evaluate `e`
 - in case `evalCBN e` is of the form `ECons e1 e2` the result obtained by evaluating the head of the list represented by `ECons e1 e2`.
 
+Also note that lists are similar to numbers. After all, a successor number is essentially just a list of `S`s (and `0` plays a role similar to the EndOfList symbol `#`). Taking this comparison further, `tail` corresponds to `minus_one` since both chop off the first element of their respective input. 
 
 **Exercise:** (not necessary to hand this in, but should help to see how to implement the two rules above in `Interpreter.hs`) Translate the computation rule `hd a:b:c:#   --->   a` from concrete syntax to abstract syntax. Also run `hd a:b:c:#` in the parser and compare.
 
@@ -174,6 +177,8 @@ and in Haskell by
     plus x y = 1 + plus (x-1) y
 
 To solve the exercises below, I recommended to first write down similar equational definitions before attempting to implement them in `LambdaNat5`. 
+
+**Task:** Implement the functions below in `LambdaNat5`.
 
 #### `le`
 

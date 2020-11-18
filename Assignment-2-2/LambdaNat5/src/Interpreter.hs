@@ -34,7 +34,7 @@ evalCBN (ERec i e1 e2) = evalCBN (EApp (EAbs i e2) (EFix (EAbs i e1)))
 evalCBN (EFix e) = evalCBN (EApp e (EFix e)) 
 evalCBN (EMinusOne e) = case (evalCBN e) of
     ENat0 -> ENat0
-    (ENatS e) -> e
+    (ENatS e) -> evalCBN e
 evalCBN (ENatS e') = ENatS (evalCBN e')
 evalCBN x = x
 
@@ -42,8 +42,8 @@ newtype IDM m a = IDM{unIDM :: m}
 
 -- The following code should need no modification
 -- Read at your own peril
--- The use of "traverse" allows us to not write
---   code for trivial case, see also subst below
+-- The use of "traverse" allows us to not change the code of subst
+--   when adding rules to the grammar
 
 efoldMap :: forall a m. (Data a, Monoid m) => (a -> m) -> a -> m
 efoldMap f x = traverse f x
