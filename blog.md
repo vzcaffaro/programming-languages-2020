@@ -66,5 +66,18 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
   - Haskell is close to what one calls "pure functional programming" but there are also multi-paradigm languages such as OCaml and, more recently, Scala and Julia. You can pick Julia or Scala and write one or more blogs about how they integrate FP and OO. What are the benefits (apart from just having both FP and OO)?
   - In case you have an interest in logic programming (eg PROLOG), there is some interesting literature on building multi-paradigm languages that combine functional and logic programming. 
 
+
+- Improve the `LambdaNat5` interpreter. See also my suggestions for [extra credit](extra-credit.md). Some of these may be more difficult than others, get in touch before you spend a huge amount of time on this.
+  - Efficiency:
+    - better fresh name generation/beta-reduction
+    - binary numbers instead of successor numbers
+    - call by value instead of call by name
+    - ...
+  - Usability
+    - Booleans
+    - error messages
+    - binary numbers
+    - pattern matching
+    - ...
 - ... let me know if you have your own ideas ... the blog is a space where you can be creative ...
 - ...
