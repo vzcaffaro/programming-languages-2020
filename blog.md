@@ -52,20 +52,31 @@ Your blog should
 
 Again, if you have your own ideas, let me know. I am happy to adapt these guidelines if they do not fit what you have in mind.
 
-**Ideas for the blog:**
+## Ideas for the blog:
 - General remark: In did have quite a number of interesting discussions with students, on the discussion forum or via email, about curious observations concerning Haskell, bnfc and the like ... typically these observations would also make interesting points for the blog.
-- Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better.
+
+- Items marked with **** below are more work and would probably have to be expanded in a series of blog posts.
+
+#### Haskell
+
+- **** Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better.
 - Benchmark the same algorithms in Python and Haskell. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run.
 - Explain how to use docker to setup Haskell and bnfc. Make a dockerfile that we could use to run Haskell, bnfc and the assignments.
-- I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try.
-- Haskell and $\lambda$-calculus: Write the same program in both languages and compare.
-- Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
+- **** I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try.
+- Haskell and $\lambda$-calculus: 
+  - Write the same program in both languages and compare.
+  - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
+- **** If you know C and have experience in programming with pointers, you will be interested to learn that all of this is still in Haskell, but hidden in the compiler. Study how the Haskell compiler makes working with lists efficient. (This is abig topic and would be worth a whole series of blog posts.)
 - Haskell is lazy, which is interesting for programming with infinite data structures such as streams.
-- Do some of the [exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw) labelled "Optional (but interesting)". (Essential exercises are not suitable for the blog.)
+- Do one (or more) of the [exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw) labelled "Optional (but interesting)". (Essential exercises are not suitable for the blog.)
+
+#### General Programming Languages Topics
+
 - Multi-paradigm languages:
   - Haskell is close to what one calls "pure functional programming" but there are also multi-paradigm languages such as OCaml and, more recently, Scala and Julia. You can pick Julia or Scala and write one or more blogs about how they integrate FP and OO. What are the benefits (apart from just having both FP and OO)?
   - In case you have an interest in logic programming (eg PROLOG), there is some interesting literature on building multi-paradigm languages that combine functional and logic programming. 
 
+#### Interpreters
 
 - Improve the `LambdaNat5` interpreter. See also my suggestions for [extra credit](extra-credit.md). Some of these may be more difficult than others, get in touch before you spend a huge amount of time on this.
   - Efficiency:
@@ -79,5 +90,7 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
     - binary numbers
     - pattern matching
     - ...
+
+#### Other Topics
+
 - ... let me know if you have your own ideas ... the blog is a space where you can be creative ...
-- ...
