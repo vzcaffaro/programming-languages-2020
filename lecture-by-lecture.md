@@ -85,6 +85,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 #### Assignment 2
 
 - [Assignment 2, Part 1-3](assignment-2.md)
+- I use scripts like [lambdanat](lambdanat) to automate part of the work cycle. Feel free to adapt to your own needs.
 - Video on [merge sort](https://youtu.be/W2CknJGgzr0)
 
 #### Program Verification (1 week)
