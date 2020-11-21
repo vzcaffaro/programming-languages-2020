@@ -52,14 +52,18 @@ Your repository needs to contain a folder `Assignment-2-1` which must be identic
 
 This is essentially the [homework from the Tuesday lecture](https://hackmd.io/Mt3etYA-QPe3vQGD-bBkLw?both#Homework). There are no points, but in case you will ask for an extension of the final deadline, I will make this dependent on whether you finished Part 2 by **Friday, Nov 13**.
 
-Your repository needs to contain a folder `Assignment-2-2` which must be identical which the one [here](https://github.com/alexhkurz/programming-languages-2020/tree/master/Assignment-2-2), with the exeption of the following:
+Your repository needs to contain a folder `Assignment-2-2` which must be identical which the one [here](https://github.com/alexhkurz/programming-languages-2020/tree/master/Assignment-2-2), with the exeption of the own programs you add.
 
-Add the following programs to `LambdaNat4/test`.
+**Task 1:** Change the implementation of `minus_one` in the interpreter so that the following programs compute correctly:
+
+
+
+**Task 2:** Add the following programs to `LambdaNat4/test`.
 
 - `multiplication.lc`
 - `factorial.lc`
 
-Before writing these programs, I recommend to study the examples in [test](https://github.com/alexhkurz/programming-languages-2020/blob/master/Assignment-2-2/LambdaNat4/test/).
+**Hint:** Before writing these programs, I recommend to study the examples in [test](https://github.com/alexhkurz/programming-languages-2020/blob/master/Assignment-2-2/LambdaNat4/test/).
 
 These are all programs we have written before in Haskell, so that should not take you more than 1 hour. If you can run and test these programs you should be ready to start Part 3 on Friday.
 
@@ -107,6 +111,13 @@ For the exercise below, recall that abstract syntax is defined in `AbsLambdaNat.
      tl a:b:c:#   --->   b:c:#
 
 Note that this does not specify what will happen if your computation reaches `hd #` or `tl #`. In my implementation the computation will just get stuck at `hd #` or `tl #`, in more sophisticated implementations, you would probably want to have something like a runtime exception.
+
+Here are some further test cases to check whether your interpreter "reduces under a `hd`". 
+
+    hd ((\ x . x) a : #)   --->   a
+    hd ((\ x . x) a) : #   --->   a
+
+Similarly, one should reduce under a `tl`.
 
 **Hint:** Recall the `case` expressions for `EApp` or `EMinusOne`.  The code in the interpreter for `EHd e` needs to 
 - evaluate `e`

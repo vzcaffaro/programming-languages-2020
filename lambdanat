@@ -1,0 +1,24 @@
+#!/bin/zsh
+    echo ""
+    echo ""
+    echo -e "\e[31m---lambdanat---\e[0m"
+    ps -p $$
+cd grammar
+    echo -e "\e[31mbnfc -m -haskell LambdaNat5.cf\e[0m"
+bnfc -m -haskell LambdaNat5.cf
+    echo -e "\e[31mmake\e[0m"
+make 
+cd .. 
+    echo -e "\e[31mcp grammar/*.hs src\e[0m"
+cp grammar/*.hs src ; 
+    echo -e "\e[31mstack build\e[0m"
+stack build 
+    echo -e "\e[31mstack exec LambdaNat-exe test/mergeLists.lc\e[0m"
+stack exec LambdaNat-exe test/mergeLists.lc 
+    echo -e "\e[31mstack exec LambdaNat-exe solutions/mergeLists.lc\e[0m"
+stack exec LambdaNat-exe solutions/mergeLists.lc 
+echo -e "\e[31m---lambdanat---\e[0m"
+echo ""
+echo ""
+
+
