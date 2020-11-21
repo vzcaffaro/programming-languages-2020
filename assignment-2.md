@@ -197,7 +197,7 @@ To solve the exercises below, I recommended to first write down similar equation
 
     le S 0 S 0 ---> S 0
     le S 0 S S 0 ---> S 0
-    le S 0 0 = 0 ---> 0
+    le S 0 0 ---> 0
 
 `--->` is used here for the input/output relation. Following a common convention in C-like programming languages `S 0` stands for true and `0` for false.
 

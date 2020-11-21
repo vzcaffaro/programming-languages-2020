@@ -88,9 +88,9 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 - I use scripts like [lambdanat](lambdanat) to automate part of the work cycle. Feel free to adapt to your own needs.
 - Video on [merge sort](https://youtu.be/W2CknJGgzr0)
 
-#### Program Verification (1 week)
+#### Program Verification (2 weeks)
 
-- 11.2: [Hoare Logic](https://hackmd.io/Df57tnuCSGaW8wqqsl57FQ) 
+- 11.2, 12.1, 12.2, 13.1: [Hoare Logic](https://hackmd.io/Df57tnuCSGaW8wqqsl57FQ) 
 
 ---
 

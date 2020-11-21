@@ -32,10 +32,14 @@ evalCBN (EIf e1 e2 e3 e4) = if (evalCBN e1) == (evalCBN e2) then evalCBN e3 else
 evalCBN (ELet i e1 e2) = evalCBN (EApp (EAbs i e2) e1) 
 evalCBN (ERec i e1 e2) = evalCBN (EApp (EAbs i e2) (EFix (EAbs i e1)))
 evalCBN (EFix e) = evalCBN (EApp e (EFix e)) 
-evalCBN (EMinusOne e) = case (evalCBN e) of
-    ENat0 -> ENat0
-    (ENatS e) -> evalCBN e
 evalCBN (ENatS e') = ENatS (evalCBN e')
+evalCBN (EMinusOne e) = case (evalCBN e) of
+    (ENatS e) -> e
+evalCBN (EHd e) = case (evalCBN e) of 
+    ECons e1 _ -> e1
+evalCBN (ETl e) = case (evalCBN e) of 
+    ECons _ l1 -> l1
+evalCBN (ECons e l) = ECons (evalCBN e) (evalCBN l)
 -- the default must be the last line of evalCBN:
 evalCBN x = x 
 
@@ -114,20 +118,7 @@ subst id s e@(EAbs id' e') =
         EAbs f $ subst id s e''
 subst id s e = emap (subst id s) e
 
--- the trick with emap and traverse makes the code below unnessary:
---
--- subst id s (EApp e1 e2) = EApp (subst id s e1) (subst id s e2)
--- subst id s (ENat0) = ENat0 
--- subst id s (ENatS e) = ENatS (subst id s e) 
--- subst id s (EIf e1 e2 e3 e4) = EIf (subst id s e1) (subst id s e2) (subst id s e3) (subst id s e4)
--- -- subst id s (ELet i e1 e2) = subst id s (EApp (EAbs i e1) e2)
--- -- subst id s (ERec i e1 e2) = subst id s (EApp (EAbs i e2) (EFix (EAbs i e1)))
--- subst id s (EFix e) = EFix (subst id s e)
--- subst id s (EMinusOne e) = EMinusOne (subst id s e)
--- subst id s (EHd e) = EHd (subst id s e)
--- subst id s (ETl e) = ETl (subst id s e)
--- subst id s ENil = ENil
--- subst id s (ECons e l) = ECons (subst id s e) (subst id s l)
+-- the trick with emap and traverse makes the code below unnessary to add a rule to subst for each new rule of the grammar
 
 
 
