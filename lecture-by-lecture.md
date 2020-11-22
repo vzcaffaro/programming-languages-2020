@@ -92,6 +92,8 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 
 - 11.2, 12.1, 12.2, 13.1: [Hoare Logic](https://hackmd.io/Df57tnuCSGaW8wqqsl57FQ) 
 
+#### [Feedback Midterm, Planning, Studyguide Final](planning.md)
+
 ---
 
 ## ... coming up ... 
