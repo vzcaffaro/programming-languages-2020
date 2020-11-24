@@ -35,11 +35,6 @@ evalCBN (EFix e) = evalCBN (EApp e (EFix e))
 evalCBN (ENatS e') = ENatS (evalCBN e')
 evalCBN (EMinusOne e) = case (evalCBN e) of
     (ENatS e) -> e
-evalCBN (EHd e) = case (evalCBN e) of 
-    ECons e1 _ -> e1
-evalCBN (ETl e) = case (evalCBN e) of 
-    ECons _ l1 -> l1
-evalCBN (ECons e l) = ECons (evalCBN e) (evalCBN l)
 -- the default must be the last line of evalCBN:
 evalCBN x = x 
 
