@@ -43,12 +43,12 @@ Your blog should
 
 ***I don't want to limit your creativity, so let me know if you have your own ideas.***
 
-**Marking Guidelines:**
+## Marking Guidelines
 
 - **D:** Demonstrates basic familiarity with Haskell.  
 - **C:** Demonstrates adequate familiarity with Haskell. Develops own examples along the lines of the homework.
 - **B:** Demonstrates good understanding of Haskell. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class. Can be recommended to a beginning Haskeller as a first introduction. Makes connections between the practical and theoretical parts of the course. 
-- **A:** Demonstrates a very good understanding of Haskell. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of great interest to a beginning Haskeller. Makes interesting connections between the practical and theoretical parts of the course. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project.
+- **A:** Demonstrates a very good understanding of Haskell. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of substantial interest to a beginning Haskeller. Makes interesting connections between the practical and theoretical parts of the course. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project (but there are many possibilities here ... get in touch to discuss more.)
 
 Again, if you have your own ideas, let me know. I am happy to adapt these guidelines if they do not fit what you have in mind.
 
@@ -80,9 +80,10 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
 
 - Improve the `LambdaNat5` interpreter. See also my suggestions for [extra credit](extra-credit.md). Some of these may be more difficult than others, get in touch before you spend a huge amount of time on this.
   - Efficiency:
-    - better fresh name generation/beta-reduction
     - binary numbers instead of successor numbers
     - call by value instead of call by name
+    - better substitution/beta-reduction
+    - call stack
     - ...
   - Usability
     - Booleans
