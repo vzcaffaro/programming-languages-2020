@@ -70,7 +70,9 @@ These links are somewhat random and should go somewhere else in the end but I ke
 
 Warning: Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to critical thinking.
 
-- Rust's concept of [Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) strikes a balance between C-style memory allocation and Java-style garbage collection. For more on how Rust combines imperative with functional features see eg the blog [Is Rust a functional programming language?](https://www.fpcomplete.com/blog/2018/10/is-rust-functional/)
+- Unison is a new programming language based on the idea of [content-addressed code](https://www.unisonweb.org/docs/tour). Search the linked tour for "functional" to see why it is important for Unison to be a pure functional programming language. I only worked through the tour sofar, but it looks very interesting.
+
+- Rust's concept of [Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) strikes a balance between C-style memory allocation and Java-style garbage collection. This ideas is related to [linear type systems](https://arxiv.org/pdf/1710.09756). For more on how Rust combines imperative with functional features see eg the blog [Is Rust a functional programming language?](https://www.fpcomplete.com/blog/2018/10/is-rust-functional/).
 
 - Charles Scalfani on Haskell: He writes from the point of view of a software engineer who had to learn Haskell the hard way. I first came across his article [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.p6vn7xvdj). His [more recent articles](https://medium.com/@cscalfani) contain more lessons about how and why to learn Haskell.
 
