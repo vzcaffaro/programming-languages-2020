@@ -4,6 +4,8 @@ If you want to do a project for extra credit, get in touch with me.
 
 Here are some ideas.
 
+## Making `LambdaNat` more efficient and user friendly
+
 The programming language `LambdaNat` has been designed by Sam Balco and myself with the aim to find the fastest route to a simple interpreter such that
 
 - the interpreter is short (the part that operates on abstract syntax has approximately 50 loc)
@@ -17,19 +19,21 @@ On the other hand, this means that we compromise both efficiency and user experi
 
 - Currently, we have only one data type, namely expressions. Add Booleans to LambdaNat. 
 
-- Implement a more efficient substitution function. (That could have a great effect on efficiency since subsitution (= beta reduction) is the computational engine of the interpreter.)
+- Implement a more efficient substitution function. (That could have a great effect on efficiency since subsitution (= beta reduction) is the computational engine of the interpreter.) Here are some [notes](https://hackmd.io/@alexhkurz/SyoTUBxoP).
 
-More challenging still would be the following.
+- Add a module system so that not all programs must be in the file.
+
+Later in the course we will add variables, assignment and pointers.
+
+- Add input and output.
 
 - Replace the fixed point combinator by a mechanism that uses a call stack. 
 
-- Currently one always has to use the conditional for case distinctions. Add pattern matching.
+- Add pattern matching.
 
-- Currently, everything is based on the untyped lambda calculus. Add a type system.
+- Add a type system.
 
-- Currently all functions must be in the same file. Add a module system.
-
-- If you are thinking about adding side effects and memory wait for later in the course.
+## Reducing everything to pure lambda-calculus
 
 Alternatively, you could also make things less efficient and even more principled. We have seen that we can encode numbers directly in the lambda calculus. The same is true for conditionals. And lists. 
 
