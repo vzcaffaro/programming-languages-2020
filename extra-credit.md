@@ -8,12 +8,15 @@ Here are some ideas.
 
 The programming language `LambdaNat` has been designed by Sam Balco and myself with the aim to find the fastest route to a simple interpreter such that
 
-- the interpreter is short (the part that operates on abstract syntax has approximately 50 loc)
-- all programs can be executed pen and paper as well as by the machine
+- the interpreter is short (the part that operates on abstract syntax has approximately 50 loc),
+- all programs can be executed pen and paper as well as by the machine,
+- programming feels like in a simple functional programming language (imperative features will be added later).
 
-This gives us full control and a complete understanding of what is going on "under the hood" of `LambdaNat`.
+The first two items give us full control and a complete understanding of what is going on "under the hood" of `LambdaNat` and the last item gives us the confidence that this understanding will scale to real world programming languages
 
-On the other hand, this means that we compromise both efficiency and user experience. The following projects address some of the missing features.
+On the other hand, this approach alsomeans that we compromise both efficiency and user experience. The following projects address some of the missing features.
+
+#### Adding Features to `LambdaNat`
 
 - Binary numbers are much more efficient than successor numbers. Replace successor numbers in `LambdaNat` with Haskell's integer arithmetic.
 
@@ -23,7 +26,10 @@ On the other hand, this means that we compromise both efficiency and user experi
 
 - Add a module system so that not all programs must be in the file.
 
-Later in the course we will add variables, assignment and pointers.
+Later in the course we will add variables, assignment, while loops and pointers.
+
+#### Adding More Features to `LambdaNat`
+
 
 - Add input and output.
 
@@ -37,5 +43,5 @@ Later in the course we will add variables, assignment and pointers.
 
 Alternatively, you could also make things less efficient and even more principled. We have seen that we can encode numbers directly in the lambda calculus. The same is true for conditionals. And lists. 
 
-- Write a `LambadNat5` interpreter that uses beta-reduction as its only computation step.
+- Write a `LambadNat5` interpreter that uses beta-reduction as its only computation step. Run Assignment2 in that interpreter for testing.
 
