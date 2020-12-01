@@ -18,9 +18,9 @@ On the other hand, this approach alsomeans that we compromise both efficiency an
 
 #### Adding Features to `LambdaNat`
 
-- Binary numbers are much more efficient than successor numbers. Replace successor numbers in `LambdaNat` with Haskell's integer arithmetic.
+- Binary numbers are much more efficient than successor numbers. Replace successor numbers in `LambdaNat` with Haskell's integer arithmetic. Add "+", "-", "*" to your grammar and evaluate these operations using Haskell's arithmetic. Call the new language and interpreter `LambdaNat6`. Can you evaluate `fib 20` in `LambdaNat6`? What is the largest `n` for which fibonacci-in-Python terminates without letting the user wait? How does `LambdaNat6` improve the efficiency of mergesort?
 
-- Currently, we have only one data type, namely expressions. Add Booleans to LambdaNat. 
+- Currently, we have only one data type, namely expressions. Add Booleans to LambdaNat. If you extend `LambdaNat6` you should use Haskell's Booleans for this (otherwise you can also implement your own). Add a new type of expressions, say, `BExp` to the grammar. Add operations `and`, `or`, `not` as well as `==`, `<=`, `<`, `>`, `>=`. Rewrite the mergesort of Assignment 2 in this new language for testing. Note that you need now two evaluation functions, one for `Exp` and one for `BExp`.
 
 - Implement a more efficient substitution function. (That could have a great effect on efficiency since subsitution (= beta reduction) is the computational engine of the interpreter.) Here are some [notes](https://hackmd.io/@alexhkurz/SyoTUBxoP).
 
