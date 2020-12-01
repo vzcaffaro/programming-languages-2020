@@ -64,11 +64,9 @@ While Wikipedia is a good place to gain a first impression of a new topic, a gre
 
 Get in touch if you want to hear more about how these articles are related to this course.
 
-## Some links
+## Some Discussion Topics
 
-These links are somewhat random and should go somewhere else in the end but I keep them here for now ... none of this is required reading, but all of it is part of the wider landscape in which this course is situated ... get in touch if you want to discuss any of this.
-
-Warning: Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to critical thinking.
+None of this is required reading, but all of it is part of the wider landscape in which this course is situated. Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to start a discussion.
 
 - Unison is a new programming language based on the idea of [content-addressed code](https://www.unisonweb.org/docs/tour). Search the linked tour for "functional" to see why it is important for Unison to be a pure functional programming language. I only worked through the tour sofar, but it looks very interesting.
 

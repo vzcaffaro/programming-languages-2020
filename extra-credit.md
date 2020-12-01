@@ -33,7 +33,7 @@ Later in the course we will add variables, assignment and pointers.
 
 - Add a type system.
 
-## Reducing everything to pure lambda-calculus
+## Encoding all computation in lambda-calculus
 
 Alternatively, you could also make things less efficient and even more principled. We have seen that we can encode numbers directly in the lambda calculus. The same is true for conditionals. And lists. 
 
