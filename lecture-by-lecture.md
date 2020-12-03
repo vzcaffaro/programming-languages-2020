@@ -94,21 +94,14 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 
 #### [Feedback Midterm, Planning, Studyguide Final](planning.md)
 
+#### Imperative Programming
+
+Lab 13.2: The Programming Language [LambdaFun](https://github.com/alexhkurz/programming-languages-2020/tree/master/Lab2-Lambda-Calculus/LambdaFun)   
+
+
 ---
 
 ## ... coming up ... 
-
-#### Imperative Programming (1 week)
-
-- Lab on building interpreters for the LambdaFun family, Assignment 3 out
-- Lab on Assignment 3
-
-#### Universal Algebra and Category Theory (1 week)
-
- - Abstract Data Types
- - What is Structure?
- - Structure Preserving Maps
- - Universal Properties
 
 ## Bonus Lectures
 
@@ -125,3 +118,11 @@ In previous years, this course was more theoretical and less focussed on Haskell
 - [Normalisation by Evaluation](https://hackmd.io/w9RLzXmcS86U4HVAQi5Lqg)
 - [Induction and Equational Reasoning](https://hackmd.io/02w2FuLsT_uKYQxkPSdvtw)
 - [Theorem Proving](https://hackmd.io/JrBBURefROGD1xMN44Zivw)
+
+#### Universal Algebra and Category Theory
+
+ - Abstract Data Types
+ - What is Structure?
+ - Structure Preserving Maps
+ - Universal Properties
+
