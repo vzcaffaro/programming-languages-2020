@@ -83,8 +83,13 @@ Some items require more work than others. Feel free to expand interesting topics
 
 - Why is lambda-calculus Turing complete?
 - What is the halting problem? Why is it undecidable? What are other undecidable problem?
+- What is combinatory logic? Is combinatory logic Turing complete? 
+- Beta-reduction is an important computational mechanism. Explore how to efficiently implement it using de Bruin indices.
 - Can we prove confluence automatically? What is the Knuth-Bendix algorithm?
 - Not all terminating programs can be proved termination with a termination measure that takes values in natural numbers. How can we go beyond this?
+- Some modern programming languages such as [Dafny](https://hackmd.io/@alexhkurz/SJyBbDQjv) implement verification of termination and pre/postconditions. Eplore.
+- [Reversible computing](https://hackmd.io/@alexhkurz/H1PIwnSqw).
+- Interactive theorem provers (Isabelle, Coq, Agda, Lean, ...) are functional programming languages in which one can prove mathematical theorems. Explore.
 
 #### General Programming Languages Topics
 
