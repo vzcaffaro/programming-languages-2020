@@ -90,7 +90,7 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 
 #### Program Verification (2 weeks)
 
-- 11.2, 12.1, 12.2, 13.1: [Hoare Logic](https://hackmd.io/Df57tnuCSGaW8wqqsl57FQ) 
+- 11.2, 12.1, 12.2, 13.1: [Hoare Logic](https://hackmd.io/Df57tnuCSGaW8wqqsl57FQ) ... [Exercises](https://hackmd.io/@alexhkurz/rkhVZNzjH)
 
 #### [Feedback Midterm, Planning, Studyguide Final](planning.md)
 
