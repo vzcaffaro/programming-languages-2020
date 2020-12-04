@@ -68,6 +68,8 @@ Get in touch if you want to hear more about how these articles are related to th
 
 None of this is required reading, but all of it is part of the wider landscape in which this course is situated. Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to start a discussion.
 
+- [rise4fun](https://rise4fun.com/) has a long list of software engineering tools for program analysis and verification that you can run in your webbrowser.
+
 - Unison is a new programming language based on the idea of [content-addressed code](https://www.unisonweb.org/docs/tour). Search the linked tour for "functional" to see why it is important for Unison to be a pure functional programming language. I only worked through the tour sofar, but it looks very interesting.
 
 - Rust's concept of [Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) strikes a balance between C-style memory allocation and Java-style garbage collection. This ideas is related to [linear type systems](https://arxiv.org/pdf/1710.09756). For more on how Rust combines imperative with functional features see eg the blog [Is Rust a functional programming language?](https://www.fpcomplete.com/blog/2018/10/is-rust-functional/).

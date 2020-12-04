@@ -94,9 +94,11 @@ Deadline for a first draft of the first parts of your [blog](blog.md) (5 weeks =
 
 #### [Feedback Midterm, Planning, Studyguide Final](planning.md)
 
-#### Imperative Programming
+13.2: Discussion of solutions to midterm [notes (morning)](https://github.com/alexhkurz/programming-languages-2020/blob/master/resources/PL%202020%20Midterm%20(morning).pdf) ... [notes (afternoon)](https://github.com/alexhkurz/programming-languages-2020/blob/master/resources/PL%202020%20Midterm%20(afternoon).pdf) ... 
 
-Lab 13.2: The Programming Language [LambdaFun](https://github.com/alexhkurz/programming-languages-2020/tree/master/Lab2-Lambda-Calculus/LambdaFun)   
+#### Assignment 3
+
+The Programming Language [LambdaFun](https://github.com/alexhkurz/programming-languages-2020/tree/master/Lab2-Lambda-Calculus/LambdaFun)   
 
 
 ---
