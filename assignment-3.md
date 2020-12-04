@@ -26,7 +26,7 @@ Each group submits their answer by sending me a link to a github repository via 
 
 ## Part 1
 
-(counts for 6 point out of 18 ... the task is mainly to translate your solution of Assignment 2 into the new programming language ... let me know if there are any problems)
+(counts for 6 point out of 18 ... the task is to translate your solution of Assignment 2 into the new programming language ... let me know if there are any problems)
 
 #### Instructions
 
