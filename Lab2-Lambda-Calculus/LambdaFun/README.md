@@ -53,8 +53,6 @@ Remark:
 
 ## Lab2
 
-**Lab on Thursday:** Implement easy arithmetic: `plusone`, `add`
+**Assignment 3, Part 1, before Tuesday:** Implement the programs of Assignment2 in LambdaFun using the built-in lists. See `test/examples.lc` for examples.
 
-**Homework before Tuesday:** Implement the programs of Assignment2 in LambdaFun using the built-in lists. See `test/examples.lc` for examples.
-
-**Memory:** See  the discussion on the [Memory Model](https://hackmd.io/@alexhkurz/HkEBbgGnS). 
+**Assignment 3, Part 2, tba:** If you want to have a look already how we will use the new features of the language, read the discussion on the [Memory Model](https://hackmd.io/@alexhkurz/HkEBbgGnS) and study the examples in [linked-list.lc](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab2-Lambda-Calculus/LambdaFun/test/linked-list.lc). 
