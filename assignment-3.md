@@ -69,8 +69,9 @@ Each group submits their answer by sending me a link to a github repository via 
 
     - There is now a syntax for pattern matching using `case`.
 
-    - The notation for lists changed. 
-- **(worth 6 points)**: Add a file `mergesort.lc` to `test` that contains your solution to Assignment 2, but now runs in `LambdaFun`.
+    - The notation for lists changed, for example, `#` is now `[]`.
+
+- **(worth 6 points)**: Add a file `mergesort.lc` to `test` that contains your solution to Assignment 2 (the function `mergeLists` and its helper functions) but now runs in `LambdaFun`.
 
 - Let me know if there are any problems, questions, etc
 
