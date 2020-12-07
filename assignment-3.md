@@ -46,14 +46,14 @@ Each group submits their answer by sending me a link to a github repository via 
 
         λ :help
 
-    to get an overview of the available commands. There are some built in functions. Run and predict the expected results before hitting return/enter.
+    to get an overview of the available commands. There are some built in functions. Run (and, as always, predict the expected results before hitting return/enter):
 
         λ head [2,3];;
         λ tail [2,3];;
         λ head [];;
         λ tail [];;
 
-    Beware of the difference between `,` and `:` and, as always, throw i some parentheses if you get unexpected results: 
+    Beware of the difference between `,` and `:` and throw in some parentheses if you get unexpected results: 
 
         λ [1,[2,3]];;
         λ 1:[2,3];;
