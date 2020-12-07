@@ -46,10 +46,13 @@ Each group submits their answer by sending me a link to a github repository via 
 
         λ :help
 
-    to get an overview of the available commands. There are some built in functions such as
+    to get an overview of the available commands. There are some built in functions. Run 
 
         λ head [2,3];;
         λ tail [2,3];;
+        λ head [];;
+        λ tail [];;
+
 
     Run 
 
