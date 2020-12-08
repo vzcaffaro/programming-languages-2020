@@ -16,6 +16,7 @@ evalCBN (EApp e1 e2) = case (evalCBN e1) of
     e1' -> EApp e1' e2
 evalCBN (ENatS e') = ENatS (evalCBN e')
 evalCBN ENat0 = ENat0
+-- your code goes here
 evalCBN x = x
 
 
@@ -42,4 +43,5 @@ subst id s e@(EAbs id' e') =
         EAbs f $ subst id s e''
 subst id s (ENatS e) = ENatS (subst id s e) 
 subst id s ENat0 = ENat0 
+-- your code goes here
 

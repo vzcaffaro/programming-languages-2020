@@ -1,3 +1,5 @@
+.history
+.DS_Store 
 *.hi
 *.o
 *.txt
@@ -5,9 +7,8 @@
 *.info
 *.y
 Makefile
-*/Local/*
-/Local/*
-*/*tmp*/
-*copy*
-/Lab1-solutions/*
+.stack-work/
+*.lock
 
+Local
+*copy

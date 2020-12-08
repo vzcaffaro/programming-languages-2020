@@ -1,11 +1,3 @@
-# README
+For all questions go first to 
 
-To run a program in the language LambdaNat:
-
-- download this directory
-
-- run `stack build` in this directory from a terminal (needs Haskell)
-
-- run `stack exec LambdaNat-exe test/test-xxyz.lc` to execute the program `test-xxyz.lc` in the directory `test`
-
-  
+    ../../Lab1-Lambda-Calculus/README.md

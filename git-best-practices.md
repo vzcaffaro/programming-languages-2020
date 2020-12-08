@@ -21,7 +21,7 @@ Proper use of git will be considered for grading. Complete solutions uploaded to
    - Do not track/commit/push machine generated files. 
    - Avoid unthinking use of `git add *`. Only add files that should be tracked. 
    - Run `git status`. If you see under `Untracked files` names that you don't recognize, they are likely machine generated files. Do not track those. Rather add these names to a file named `.gitignore` at the root of your repo.
-  - Look at some [examples](https://github.com/github/gitignore) of `.gitignore` files. But I recommend not to copy one of them. Rather build them up incrementally using `git status` and add files you do not want to track to `.gitignore` step by step.
+  - Build up your `.gitignore` incrementally using `git status` and add files you do not want to track to `.gitignore` step by step. You can start from [my .gitignore](https://github.com/alexhkurz/programming-languages-2020/blob/master/.gitignore) file.
 
 - Do not create different versions of files by copying them. Use branches. 
 
