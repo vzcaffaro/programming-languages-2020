@@ -1,5 +1,7 @@
 # Blog    
 
+Deadline: **Wed Dec, 23.**
+
 ## Introduction
 
 This course can only scratch the surface of so many topics in programming languages, ranging from very practical (which programming language is best suited for what type of application) to purely mathematical (algorithmic complexity theory, algebra, logic, category theory, proof theory, ...). The blog is an opportunity to dig a bit deeper in what interests you most.
